@@ -24,7 +24,7 @@ export interface Manifest {
     LoadPriority: number,
     CanUnloadAsync: boolean,
     ImageUrls?: string[],
-    IconUrl: string,
+    IconUrl?: string,
     AcceptsFeedback?: boolean,
     FeedbackMessage?: string,
     _isDip17Plugin?: boolean,
