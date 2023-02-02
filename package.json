@@ -4,6 +4,7 @@
     "author": "Rhyster",
     "description": "Fetch dalamud plugin list and replace url for CN client and network.",
     "license": "MIT",
+    "type": "module",
     "scripts": {
       "build": "tsc --project ./",
       "start": "node --loader ts-node/esm ./src/app.ts",
