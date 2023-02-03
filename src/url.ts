@@ -50,7 +50,7 @@ const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: str
             Authorization: process.env.GITHUB_TOKEN,
         },
     }).json() as Release[];
-    while (true) {
+    while (releases.length > 0) {
         const curr = new Date(releases[index].published_at ?? releases[index].created_at);
         if (curr < date) {
             const result = releases[index].tag_name;
@@ -72,6 +72,8 @@ const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: str
             }).json() as Release[];
         }
     }
+
+    return undefined;
 };
 
 const urlToFastGit = (url: string) => {
@@ -102,6 +104,8 @@ const urlToDateBefore = async (url: string, beforeDate: string) => {
         const [, owner, repo, branch, tailing] = rawResult;
         const sha = await getCommitDateBefore(owner, repo, branch, beforeDate);
 
+        assert(sha, `Failing to fetch commit of ${owner}/${repo} before ${beforeDate}`);
+
         return `https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`;
     }
 
@@ -109,6 +113,8 @@ const urlToDateBefore = async (url: string, beforeDate: string) => {
     if (releaseLatestResult) {
         const [, owner, repo, tailing] = releaseLatestResult;
         const tag = await getReleaseDateBefore(owner, repo, beforeDate);
+
+        assert(tag, `Failing to fetch release of ${owner}/${repo} before ${beforeDate}`);
 
         return `https://github.com/${owner}/${repo}/releases/download/${tag}/${tailing}`;
     }

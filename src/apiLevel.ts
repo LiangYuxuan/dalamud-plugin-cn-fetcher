@@ -31,7 +31,7 @@ export default async () => {
 
         let index = 1;
         let page = 2;
-        while (true) {
+        while (globalCommits.length > 0) {
             // eslint-disable-next-line no-await-in-loop
             const apiLevel = await parseAPILevel('goatcorp/Dalamud', globalCommits[index].sha);
             if (apiLevel === apiLevelCN) {
