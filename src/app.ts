@@ -1,7 +1,9 @@
 import fs from 'fs/promises';
 
 import apiLevel from './apiLevel.js';
-import { getManifest, getManifestDateBefore } from './url.js';
+import {
+    getManifest, getManifestDateBefore, getManifestGH, getManifestDateBeforeGH,
+} from './url.js';
 
 import type { Manifest } from './types/manifest.js';
 
@@ -28,6 +30,7 @@ const mainHandler = async () => {
     const apiLevelResult = await apiLevel();
 
     const result = [] as Manifest[];
+    const resultGH = [] as Manifest[];
 
     if (apiLevelResult.isGlobalGreater) {
         const { apiLevelChangeDate } = apiLevelResult;
@@ -35,13 +38,30 @@ const mainHandler = async () => {
         (await Promise.all(globalPlugins
             .map((data) => getManifestDateBefore(data, apiLevelChangeDate))))
             .forEach((data) => result.push(...data));
+
+        (await Promise.all(globalPlugins
+            .map((data) => getManifestDateBeforeGH(data, apiLevelChangeDate))))
+            .forEach((data) => resultGH.push(...data));
     } else {
-        (await Promise.all(globalPlugins.map(getManifest))).forEach((data) => result.push(...data));
+        (await Promise.all(globalPlugins
+            .map(getManifest)))
+            .forEach((data) => result.push(...data));
+
+        (await Promise.all(globalPlugins
+            .map(getManifestGH)))
+            .forEach((data) => resultGH.push(...data));
     }
 
-    (await Promise.all(CNPlugins.map(getManifest))).forEach((data) => result.push(...data));
+    (await Promise.all(CNPlugins
+        .map(getManifest)))
+        .forEach((data) => result.push(...data));
+
+    (await Promise.all(CNPlugins
+        .map(getManifestGH)))
+        .forEach((data) => resultGH.push(...data));
 
     fs.writeFile('pluginmaster.json', JSON.stringify(result, undefined, 4));
+    fs.writeFile('pluginmaster_gh.json', JSON.stringify(resultGH, undefined, 4));
 };
 
 mainHandler().catch((error) => {

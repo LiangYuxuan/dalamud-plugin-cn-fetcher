@@ -165,3 +165,19 @@ export const getManifestDateBefore = async (url: string, apiLevelChangeDate: str
     const data = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json() as Manifest[];
     return manifestToFastGit(await Promise.all(manifestToDateBefore(data, apiLevelChangeDate)));
 };
+
+export const getManifestGH = async (
+    url: string,
+) => await got.get(url).json() as Manifest[];
+
+export const getManifestDateBeforeGH = async (url: string, apiLevelChangeDate: string) => {
+    const matchResult = url.match(rawRegex);
+    assert(matchResult, `Unknown global plugin url ${url}`);
+
+    const [, owner, repo, branch, tailing] = matchResult;
+
+    const sha = await getCommitDateBefore(owner, repo, branch, apiLevelChangeDate);
+
+    const data = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json() as Manifest[];
+    return Promise.all(manifestToDateBefore(data, apiLevelChangeDate));
+};
