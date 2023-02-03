@@ -1,0 +1,50 @@
+import fs from 'fs/promises';
+
+import apiLevel from './apiLevel.js';
+import { getManifest, getManifestDateBefore } from './url.js';
+
+import type { Manifest } from './types/manifest.js';
+
+const globalPlugins = [
+    'https://raw.githubusercontent.com/daemitus/MyDalamudPlugins/master/pluginmaster.json',
+    'https://raw.githubusercontent.com/lichie567/XIVAuras/main/repo.json',
+    'https://raw.githubusercontent.com/Bluefissure/DalamudPlugins/Bluefissure/pluginmaster.json',
+    'https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json',
+    'https://raw.githubusercontent.com/lichie567/LMeter/main/repo.json',
+    'https://raw.githubusercontent.com/chalkos/Marketbuddy/main/repo.json',
+    // 'https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/pluginmaster.json',
+];
+
+const CNPlugins = [
+    'https://dalamud_cn_3rd.otters.cloud/plugins/all',
+    'https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/pluginmaster.json',
+    'https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/pluginmaster.json',
+    'https://raw.githubusercontent.com/gamous/DalamudPluginsCN-Dev/main/MordionGaol.json',
+    'https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/pluginmaster.json',
+    'https://raw.githubusercontent.com/tssailzz8/MyPlugins/net7/pluginmaster.json',
+];
+
+const mainHandler = async () => {
+    const apiLevelResult = await apiLevel();
+
+    const result = [] as Manifest[];
+
+    if (apiLevelResult.isGlobalGreater) {
+        const { apiLevelChangeDate } = apiLevelResult;
+
+        (await Promise.all(globalPlugins
+            .map((data) => getManifestDateBefore(data, apiLevelChangeDate))))
+            .forEach((data) => result.push(...data));
+    } else {
+        (await Promise.all(globalPlugins.map(getManifest))).forEach((data) => result.push(...data));
+    }
+
+    (await Promise.all(CNPlugins.map(getManifest))).forEach((data) => result.push(...data));
+
+    fs.writeFile('pluginmaster.json', JSON.stringify(result, undefined, 4));
+};
+
+mainHandler().catch((error) => {
+    console.error(error);
+    throw error;
+});
