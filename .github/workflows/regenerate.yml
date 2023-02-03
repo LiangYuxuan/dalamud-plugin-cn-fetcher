@@ -1,0 +1,36 @@
+name: Regenerate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 1 * * *
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - run: npm install
+
+      - run: npm run lint
+
+      - run: npm run build
+
+      - run: node dist/app.js
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GitHub Action
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: Regenerate PluginMaster
