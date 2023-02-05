@@ -66,5 +66,5 @@ const mainHandler = async () => {
 
 mainHandler().catch((error) => {
     console.error(error);
-    throw error;
+    process.exitCode = -1;
 });
