@@ -383,7 +383,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 7,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 31558,
+        "DownloadCount": 32114,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
@@ -711,7 +711,7 @@
         "Punchline": "一个触发S怪用的小工具",
         "Description": "一个触发S怪用的小工具",
         "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.2.1.12",
+        "AssemblyVersion": "1.2.2.0",
         "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
         "ApplicableVersion": "any",
         "Tags": [
@@ -726,7 +726,7 @@
         "DownloadLinkTesting": "https://raw.fastgit.org/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadLinkUpdate": "https://raw.fastgit.org/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675588850"
+        "LastUpdate": "1675799202"
     },
     {
         "Author": "Aireil, Nuko",
@@ -755,7 +755,7 @@
         "DownloadLinkTesting": "https://raw.fastgit.org/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://raw.fastgit.org/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675588850"
+        "LastUpdate": "1675799202"
     },
     {
         "Author": "Det",
