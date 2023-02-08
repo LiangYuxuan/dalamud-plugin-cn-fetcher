@@ -76,23 +76,26 @@ const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: str
     return undefined;
 };
 
-const urlToFastGit = (url: string) => {
+const urlToProxy = (url: string) => {
     const rawResult = url.match(rawRegex) ?? url.match(ghRawRegex);
     if (rawResult) {
         const [, owner, repo, branch, tailing] = rawResult;
-        return `https://raw.fastgit.org/${owner}/${repo}/${branch}/${tailing}`;
+        // return `https://raw.fastgit.org/${owner}/${repo}/${branch}/${tailing}`;
+        return `https://ghproxy.com/https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${tailing}`;
     }
 
     const releaseResult = url.match(ghReleaseRegex);
     if (releaseResult) {
         const [, owner, repo, tailing] = releaseResult;
-        return `https://download.fastgit.org/${owner}/${repo}/releases/download/${tailing}`;
+        // return `https://download.fastgit.org/${owner}/${repo}/releases/download/${tailing}`;
+        return `https://ghproxy.com/https://github.com/${owner}/${repo}/releases/download/${tailing}`;
     }
 
     const releaseLatestResult = url.match(ghReleaseLatestRegex);
     if (releaseLatestResult) {
         const [, owner, repo, tailing] = releaseLatestResult;
-        return `https://download.fastgit.org/${owner}/${repo}/releases/latest/download/${tailing}`;
+        // return `https://download.fastgit.org/${owner}/${repo}/releases/latest/download/${tailing}`;
+        return `https://ghproxy.com/https://github.com/${owner}/${repo}/releases/latest/download/${tailing}`;
     }
 
     return url;
@@ -122,19 +125,19 @@ const urlToDateBefore = async (url: string, beforeDate: string) => {
     return url;
 };
 
-const manifestToFastGit = (data: Manifest[]) => data.map((plugin) => {
+const manifestToProxy = (data: Manifest[]) => data.map((plugin) => {
     const result = plugin;
 
-    result.DownloadLinkInstall = urlToFastGit(result.DownloadLinkInstall);
-    result.DownloadLinkUpdate = urlToFastGit(result.DownloadLinkUpdate);
-    result.DownloadLinkTesting = urlToFastGit(result.DownloadLinkTesting);
+    result.DownloadLinkInstall = urlToProxy(result.DownloadLinkInstall);
+    result.DownloadLinkUpdate = urlToProxy(result.DownloadLinkUpdate);
+    result.DownloadLinkTesting = urlToProxy(result.DownloadLinkTesting);
 
     if (result.IconUrl) {
-        result.IconUrl = urlToFastGit(result.IconUrl);
+        result.IconUrl = urlToProxy(result.IconUrl);
     }
 
     if (result.ImageUrls) {
-        result.ImageUrls = result.ImageUrls.map(urlToFastGit);
+        result.ImageUrls = result.ImageUrls.map(urlToProxy);
     }
 
     return result;
@@ -152,7 +155,7 @@ const manifestToDateBefore = (data: Manifest[], beforeDate: string) => data.map(
 
 export const getManifest = async (
     url: string,
-) => manifestToFastGit(await got.get(url).json() as Manifest[]);
+) => manifestToProxy(await got.get(url).json() as Manifest[]);
 
 export const getManifestDateBefore = async (url: string, apiLevelChangeDate: string) => {
     const matchResult = url.match(rawRegex);
@@ -163,7 +166,7 @@ export const getManifestDateBefore = async (url: string, apiLevelChangeDate: str
     const sha = await getCommitDateBefore(owner, repo, branch, apiLevelChangeDate);
 
     const data = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json() as Manifest[];
-    return manifestToFastGit(await Promise.all(manifestToDateBefore(data, apiLevelChangeDate)));
+    return manifestToProxy(await Promise.all(manifestToDateBefore(data, apiLevelChangeDate)));
 };
 
 export const getManifestGH = async (
