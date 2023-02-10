@@ -375,7 +375,7 @@
         "LoadSync": true,
         "Name": "Penumbra",
         "RepoUrl": "https://github.com/xivdev/Penumbra",
-        "TestingAssemblyVersion": "0.6.5.0"
+        "TestingAssemblyVersion": "0.6.5.2"
     },
     {
         "ApplicableVersion": "any",
@@ -383,7 +383,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 7,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 32647,
+        "DownloadCount": 32902,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
@@ -473,7 +473,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast(Endwalker)/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast(Endwalker)/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -498,7 +498,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/ReloadPluginCommand/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/ReloadPluginCommand/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -521,7 +521,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/Radar/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/Radar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -545,7 +545,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/LootMaster/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/LootMaster/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -571,7 +571,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -597,15 +597,16 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/WindowSizeUnlock/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/WindowSizeUnlock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
         "Name": "MidiBard",
         "Punchline": "Bard performance using midi files or keyboard.",
         "Description": "使用MIDI文件或MIDI键盘进行诗人演奏。\nBard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch",
+        "Changelog": "修复了单人演奏切换乐曲时会意外取消选择音轨的问题。",
         "InternalName": "MidiBard",
-        "AssemblyVersion": "1.15.0.0",
+        "AssemblyVersion": "1.15.1.0",
         "RepoUrl": "https://github.com/akira0245/MidiBard",
         "ApplicableVersion": "any",
         "Tags": [
@@ -625,7 +626,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MidiBard/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MidiBard/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -652,7 +653,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/DalamudFontReplacer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/DalamudFontReplacer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -681,7 +682,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MultiboxPlugin/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MultiboxPlugin/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "akira0245",
@@ -703,7 +704,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/EasyZoom/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/EasyZoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1675592234"
+        "LastUpdated": "1675939157"
     },
     {
         "Author": "Nuko",
@@ -711,7 +712,7 @@
         "Punchline": "一个触发S怪用的小工具",
         "Description": "一个触发S怪用的小工具",
         "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.2.2.0",
+        "AssemblyVersion": "1.2.2.1",
         "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
         "ApplicableVersion": "any",
         "Tags": [
@@ -726,7 +727,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675799202"
+        "LastUpdate": "1675976595"
     },
     {
         "Author": "Aireil, Nuko",
@@ -755,7 +756,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1675799202"
+        "LastUpdate": "1675976595"
     },
     {
         "Author": "Det",
