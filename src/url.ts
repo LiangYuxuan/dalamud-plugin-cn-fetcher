@@ -130,7 +130,10 @@ const manifestToProxy = (data: Manifest[]) => data.map((plugin) => {
 
     result.DownloadLinkInstall = urlToProxy(result.DownloadLinkInstall);
     result.DownloadLinkUpdate = urlToProxy(result.DownloadLinkUpdate);
-    result.DownloadLinkTesting = urlToProxy(result.DownloadLinkTesting);
+
+    if (result.DownloadLinkTesting) {
+        result.DownloadLinkTesting = urlToProxy(result.DownloadLinkTesting);
+    }
 
     if (result.IconUrl) {
         result.IconUrl = urlToProxy(result.IconUrl);
@@ -148,7 +151,10 @@ const manifestToDateBefore = (data: Manifest[], beforeDate: string) => data.map(
 
     result.DownloadLinkInstall = await urlToDateBefore(result.DownloadLinkInstall, beforeDate);
     result.DownloadLinkUpdate = await urlToDateBefore(result.DownloadLinkUpdate, beforeDate);
-    result.DownloadLinkTesting = await urlToDateBefore(result.DownloadLinkTesting, beforeDate);
+
+    if (result.DownloadLinkTesting) {
+        result.DownloadLinkTesting = await urlToDateBefore(result.DownloadLinkTesting, beforeDate);
+    }
 
     return result;
 });

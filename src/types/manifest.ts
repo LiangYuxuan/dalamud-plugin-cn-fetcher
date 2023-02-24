@@ -18,7 +18,7 @@ export interface Manifest {
     LastUpdate: number,
     DownloadLinkInstall: string,
     DownloadLinkUpdate: string,
-    DownloadLinkTesting: string,
+    DownloadLinkTesting?: string,
     LoadRequiredState: number,
     LoadSync: boolean,
     LoadPriority: number,
