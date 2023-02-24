@@ -356,6 +356,71 @@
         "Changelog": "patch 6.2 fix, dalamud api7 and .net6"
     },
     {
+        "Author": "Liza Carvelli",
+        "Name": "Slice is Right",
+        "InternalName": "SliceIsRight",
+        "AssemblyVersion": "5.2",
+        "Description": "Shows where Bamboo falls.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/carvelli/Slice-Is-Right",
+        "Tags": [
+            "gold saucer",
+            "yojimbo"
+        ],
+        "DalamudApiLevel": 7,
+        "LoadPriority": 0,
+        "Punchline": "Shows where Bamboo falls.",
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/carvelli/Slice-Is-Right/releases/download/v5.2/SliceIsRight-5.2.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/carvelli/Slice-Is-Right/releases/download/v5.2/SliceIsRight-5.2.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "LastUpdate": 0
+    },
+    {
+        "Author": "Liza Carvelli",
+        "Name": "Fish Notify",
+        "InternalName": "FishNotify",
+        "AssemblyVersion": "4.1",
+        "Description": "Plays a sound when a fish is caught, depending on tug-strength",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/carvelli/Fish-Notify",
+        "Tags": [
+            "fishing"
+        ],
+        "DalamudApiLevel": 7,
+        "LoadPriority": 0,
+        "Punchline": "Plays a sound when a fish is caught",
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/carvelli/Fish-Notify/releases/download/v4.1/FishNotify-4.1.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/carvelli/Fish-Notify/releases/download/v4.1/FishNotify-4.1.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "LastUpdate": 0
+    },
+    {
+        "Author": "Liza Carvelli",
+        "Name": "Palace Pal",
+        "InternalName": "Palace Pal",
+        "AssemblyVersion": "1.27",
+        "Description": "Shows possible trap & hoard coffer locations in Palace of the Dead & Heaven on High. Requires Splatoon to be installed.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/carvelli/PalacePal",
+        "Tags": [
+            "potd",
+            "palace",
+            "hoh",
+            "splatoon"
+        ],
+        "DalamudApiLevel": 7,
+        "LoadPriority": 0,
+        "Punchline": "Shows possible trap & hoard coffer locations in Palace of the Dead & Heaven on High.",
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/carvelli/PalacePal/releases/download/v1.27/Palace.Pal-1.27.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/carvelli/PalacePal/releases/download/v1.27/Palace.Pal-1.27.zip",
+        "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/Palace Pal.png",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "LastUpdate": 0
+    },
+    {
         "ApplicableVersion": "any",
         "AssemblyVersion": "0.6.1.5",
         "Author": "Ottermandias, Adam, Wintermute",
