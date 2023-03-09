@@ -440,7 +440,7 @@
         "LoadSync": true,
         "Name": "Penumbra",
         "RepoUrl": "https://github.com/xivdev/Penumbra",
-        "TestingAssemblyVersion": "0.6.6.1"
+        "TestingAssemblyVersion": "0.6.6.2"
     },
     {
         "ApplicableVersion": "any",
@@ -448,7 +448,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 7,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 41119,
+        "DownloadCount": 41503,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
