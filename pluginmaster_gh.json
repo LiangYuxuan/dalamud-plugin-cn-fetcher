@@ -448,7 +448,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 7,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 44144,
+        "DownloadCount": 44289,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
@@ -1226,5 +1226,28 @@
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/net7/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
         "LastUpdated": "1678074676"
+    },
+    {
+        "Author": "akira0245",
+        "Name": "Radar",
+        "InternalName": "Radar",
+        "AssemblyVersion": "2.0.2.0",
+        "Description": "在屏幕和游戏地图上显示游戏实体的位置。\nDisplays game objects location on screen and map.",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "overlay",
+            "hunt",
+            "akira"
+        ],
+        "DalamudApiLevel": 7,
+        "IconUrl": "https://i.loli.net/2021/09/24/UaxuSd9ODk5Ngil.png",
+        "Punchline": "Displays game objects location on screen and map.",
+        "DownloadLinkInstall": "https://github.com/emptyset0/Radar_akira0245/raw/master/release.zip",
+        "DownloadLinkUpdate": "https://github.com/emptyset0/Radar_akira0245/raw/master/release.zip",
+        "DownloadLinkTesting": "https://github.com/emptyset0/Radar_akira0245/raw/master/release.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadCount": 0,
+        "LastUpdated": "0"
     }
 ]
