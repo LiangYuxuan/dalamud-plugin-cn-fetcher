@@ -25,6 +25,7 @@ const CNPlugins = [
     'https://raw.githubusercontent.com/gamous/DalamudPluginsCN-Dev/main/MordionGaol.json',
     'https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/pluginmaster.json',
     'https://raw.githubusercontent.com/tssailzz8/MyPlugins/net7/pluginmaster.json',
+    'https://raw.githubusercontent.com/emptyset0/Radar_akira0245/master/pluginmaster.json',
 ];
 
 const mainHandler = async () => {
