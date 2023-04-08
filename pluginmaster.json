@@ -448,7 +448,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 7,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 48751,
+        "DownloadCount": 48966,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
@@ -509,9 +509,10 @@
         "RepoUrl": "https://github.com/ktisis-tools/Ktisis",
         "Tags": [
             "gpose",
-            "posing"
+            "posing",
+            "ktisis"
         ],
-        "TestingAssemblyVersion": "0.2.3.4"
+        "TestingAssemblyVersion": "0.2.4.5"
     },
     {
         "ApplicableVersion": "any",
@@ -806,29 +807,6 @@
         "LastUpdated": "1675939157"
     },
     {
-        "Author": "Nuko",
-        "Name": "S怪触发小助手",
-        "Punchline": "一个触发S怪用的小工具",
-        "Description": "一个触发S怪用的小工具",
-        "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.2.2.6",
-        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "S怪触发",
-            "触发",
-            "S怪"
-        ],
-        "DalamudApiLevel": 7,
-        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1680556878"
-    },
-    {
         "Author": "Aireil, Nuko",
         "Name": "FF Logs Viewer (CN)",
         "Punchline": "View FF Logs ranking percentiles in-game.",
@@ -849,13 +827,36 @@
         "ImageUrls": [
             "https://ghproxy.com/https://raw.githubusercontent.com/Aireil/FFLogsViewer/master/res/banner.png"
         ],
-        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1680556878"
+        "LastUpdate": "1680838433"
+    },
+    {
+        "Author": "Nuko",
+        "Name": "S怪触发小助手",
+        "Punchline": "一个触发S怪用的小工具",
+        "Description": "一个触发S怪用的小工具",
+        "InternalName": "RankSSpawnHelper",
+        "AssemblyVersion": "1.2.2.6",
+        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "S怪触发",
+            "触发",
+            "S怪"
+        ],
+        "DalamudApiLevel": 7,
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1680838433"
     },
     {
         "Author": "Det",
