@@ -422,14 +422,14 @@
     },
     {
         "ApplicableVersion": "any",
-        "AssemblyVersion": "0.6.6.5",
+        "AssemblyVersion": "0.6.6.6",
         "Author": "Ottermandias, Adam, Wintermute",
         "DalamudApiLevel": 7,
         "Description": "Runtime mod loader and manager.",
         "DownloadCount": 0,
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/0.6.6.5",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/0.6.6.5",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/0.6.6.5",
+        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/0.6.6.6",
+        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/0.6.6.6",
+        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Penumbra/0.6.6.6",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/xivdev/Penumbra/master/images/icon.png",
         "InternalName": "Penumbra",
         "IsHide": "False",
@@ -440,7 +440,7 @@
         "LoadSync": true,
         "Name": "Penumbra",
         "RepoUrl": "https://github.com/xivdev/Penumbra",
-        "TestingAssemblyVersion": "0.6.6.5"
+        "TestingAssemblyVersion": "0.6.6.6"
     },
     {
         "ApplicableVersion": "any",
@@ -448,7 +448,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 7,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 49478,
+        "DownloadCount": 49700,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.7",
