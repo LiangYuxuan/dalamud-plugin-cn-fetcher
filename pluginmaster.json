@@ -550,14 +550,14 @@
     },
     {
         "ApplicableVersion": "any",
-        "AssemblyVersion": "0.0.0.11",
+        "AssemblyVersion": "0.0.0.13",
         "Author": "Bluefissure, Papachin",
         "DalamudApiLevel": 7,
         "Description": "Papa asked me for this so here it is.",
         "DownloadCount": 0,
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.11",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.11",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.11",
+        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.13",
+        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.13",
+        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.13",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/Bluefissure/MultiHit/CN/images/icon.png",
         "InternalName": "MultiHit",
         "IsHide": "False",
@@ -566,7 +566,7 @@
         "Name": "MultiHit",
         "Punchline": "Split flytext into multiple hits.",
         "RepoUrl": "https://github.com/Bluefissure/MultiHit",
-        "TestingAssemblyVersion": "0.0.0.11"
+        "TestingAssemblyVersion": "0.0.0.13"
     },
     {
         "Author": "akira0245, Tsubasahane",
