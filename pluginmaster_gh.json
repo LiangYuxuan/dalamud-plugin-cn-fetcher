@@ -449,7 +449,7 @@
         "InternalName": "ARealmRecorded+",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdated": "1683382571",
+        "LastUpdated": "1683597011",
         "Name": "A Realm Recorded+",
         "RepoUrl": "https://github.com/wozaiha/ARealmRecorded"
     },
@@ -466,7 +466,7 @@
         "InternalName": "DalamudACT",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdated": "1683382571",
+        "LastUpdated": "1683597011",
         "Name": "DalamudACT",
         "RepoUrl": "https://github.com/wozaiha/DalamudACT"
     },
