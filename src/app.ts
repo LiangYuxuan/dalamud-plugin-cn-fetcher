@@ -14,8 +14,10 @@ const globalPlugins = [
     'https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json',
     'https://raw.githubusercontent.com/lichie567/LMeter/main/repo.json',
     'https://raw.githubusercontent.com/chalkos/Marketbuddy/main/repo.json',
+    'https://raw.githubusercontent.com/ArchiDog1998/Dalamud_Plugins/main/pluginmaster.json',
+    'https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json',
+    'https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json',
     // 'https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/pluginmaster.json',
-    // 'https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/pluginmaster.json',
 ];
 
 const CNPlugins = [
@@ -24,7 +26,7 @@ const CNPlugins = [
     'https://raw.githubusercontent.com/NukoOoOoOoO/DalamudPlugins/dev/pluginmaster.json',
     'https://raw.githubusercontent.com/gamous/DalamudPluginsCN-Dev/main/MordionGaol.json',
     'https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/pluginmaster.json',
-    'https://raw.githubusercontent.com/tssailzz8/MyPlugins/net7/pluginmaster.json',
+    'https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/pluginmaster.json',
     'https://raw.githubusercontent.com/emptyset0/Radar_akira0245/master/pluginmaster.json',
 ];
 
