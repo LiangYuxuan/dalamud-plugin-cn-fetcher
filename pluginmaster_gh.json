@@ -368,7 +368,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "2.9.1",
         "Changelog": "2.9.1 (2023-05-20)\n\n\nBug Fixes\n\n* add a test download link. (c7155d5)\n* add ECommons real! (3ead70c)\n* addECommons. (ab6739f)\n* Added some comments, unwrapped last LINQ (059efa8)\n* Better UI and less clutter for rotation view by using a collapsing header. (02ab8f0)\n* change chat gui. (c6b2185)\n* change ClientState. (a411c7e)\n* change condition. (55e168d)\n* change for ECommons. (b5054a5)\n* change interface. (719e0ff)\n* change jobgauge. (0cdb7ae)\n* changed the duty name. (3e565f2)\n* changed the style of status show. (0a927be)\n* changed the unit of ping. (ef29ee1)\n* fixed some bugs. (8dc381d)\n* logs for image loading. (b6f389c)\n* Method renaming. (cd15cde)\n* Only draw collapsible header if rotation has settings at all. (54b902c)\n* Refactor AuthorHashes away from LinQ. (1bb2cd6)\n* remove DtrBar. (c8d79bd)\n* remove object Table. (982cea6)\n* remove partyList. (81eb558)\n* removed one option. (a337da6)\n* removed the player. (20f9eb3)\n* Removed unnecessary file.Dispose() after loading with using. Oops. (9f57e24)\n* RotationHelper formatting (b73ab67)\n* Summoner ability \"Fester\" relies to aetherflow gauge, but was using !HasAether from EnergyDrain. (b50c086)\n* test with Splatoon. (b22b73a)\n* Unwrapped CustomRotations linq. (d3ed73e)",
-        "DownloadCount": "8791",
+        "DownloadCount": "8927",
         "LastUpdate": 1684593979,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.1/latest.zip",
@@ -397,7 +397,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.4",
         "Changelog": "1.0.4 (2023-05-08)\n\n\nBug Fixes\n\n* fixed the bug with auto close the window. (da4c721)",
-        "DownloadCount": "204",
+        "DownloadCount": "211",
         "LastUpdate": 1683562170,
         "RepoUrl": "https://github.com/ArchiDog1998/RollForLoot",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/RollForLoot/releases/download/v1.0.4/latest.zip",
@@ -426,7 +426,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.5",
         "Changelog": "1.0.5 (2023-05-21)\n\n\nBug Fixes\n\n* simplify the changing. (309a9d3)",
-        "DownloadCount": "300",
+        "DownloadCount": "307",
         "LastUpdate": 1684634620,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.5/latest.zip",
@@ -455,7 +455,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.0",
         "Changelog": "1.0.0 (2023-05-06)\n\n\nBug Fixes\n\n* first release. (9eecaa1)",
-        "DownloadCount": "151",
+        "DownloadCount": "158",
         "LastUpdate": 1683386207,
         "RepoUrl": "https://github.com/ArchiDog1998/VotePlease",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/VotePlease/releases/download/v1.0.0/latest.zip",
@@ -673,7 +673,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 34423,
+        "DownloadCount": 34906,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1323,7 +1323,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1342,7 +1342,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1362,7 +1362,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1382,7 +1382,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "牙刷play",
@@ -1401,7 +1401,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "Usagi",
@@ -1409,7 +1409,7 @@
         "Punchline": "A parsing plugin.",
         "Description": "能在replay里面使用的和使用edgetts的加强版",
         "InternalName": "IINACT",
-        "AssemblyVersion": "2.1.3.2",
+        "AssemblyVersion": "2.1.3.4",
         "RepoUrl": "https://github.com/tssailzz8/IINACT",
         "ApplicableVersion": "any",
         "Tags": [
@@ -1425,7 +1425,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1445,7 +1445,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1465,7 +1465,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1484,7 +1484,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1504,7 +1504,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "",
@@ -1512,7 +1512,7 @@
         "Punchline": "锁定",
         "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路\n/LockBOSS qi骑上最近的人\n/LockBOSS cai采集最近的矿,",
         "InternalName": "Lock",
-        "AssemblyVersion": "1.0.2.1",
+        "AssemblyVersion": "1.0.2.2",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1524,7 +1524,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684075394"
+        "LastUpdated": "1684762951"
     },
     {
         "Author": "akira0245",
