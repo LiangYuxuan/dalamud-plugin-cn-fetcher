@@ -20,7 +20,7 @@
         "DownloadLinkTesting": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/WondrousTailsSolver/latest.zip",
         "DownloadLinkUpdate": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/WondrousTailsSolver/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1684963989"
+        "LastUpdate": "1685037099"
     },
     {
         "Author": "daemitus",
@@ -41,7 +41,7 @@
         "DownloadLinkTesting": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/YesAlready/latest.zip",
         "DownloadLinkUpdate": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/YesAlready/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1684963989"
+        "LastUpdate": "1685037099"
     },
     {
         "Author": "attick, daemitus",
@@ -49,7 +49,7 @@
         "Punchline": "Condenses combos and mutually exclusive abilities onto a single button.",
         "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. For example, a 1-2-3 combo would become 1-1-1.",
         "InternalName": "XIVComboExpanded",
-        "AssemblyVersion": "1.4.0.16",
+        "AssemblyVersion": "1.4.0.17",
         "RepoUrl": "https://github.com/daemitus/XIVComboPlugin",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -62,7 +62,7 @@
         "DownloadLinkTesting": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/XIVComboExpanded/latest.zip",
         "DownloadLinkUpdate": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/XIVComboExpanded/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1684963989"
+        "LastUpdate": "1685037099"
     },
     {
         "Author": "daemitus",
@@ -83,7 +83,7 @@
         "DownloadLinkTesting": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/SomethingNeedDoing/latest.zip",
         "DownloadLinkUpdate": "https://github.com/daemitus/MyDalamudPlugins/raw/master/plugins/SomethingNeedDoing/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1684963989"
+        "LastUpdate": "1685037099"
     },
     {
         "Author": "Lichie",
@@ -276,7 +276,7 @@
         "Author": "akira0245, Ori",
         "Name": "MidiBard 2",
         "InternalName": "MidiBard2",
-        "AssemblyVersion": "2.5.2.3",
+        "AssemblyVersion": "2.5.3.1",
         "Description": "Bard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch\nSupported by FFXIV Bards & Bands Community: discord.gg/ff14bard",
         "ApplicableVersion": "any",
         "RepoUrl": "https://midibard.org",
@@ -293,12 +293,12 @@
         ],
         "IconUrl": "https://i.imgur.com/OSxqew4.png",
         "Punchline": "Bard performance using midi files or keyboard.\nSupported by FFXIV Bards & Bands Community: discord.gg/ff14bard",
-        "Changelog": "Fixed a performance issue when parsing lyrics in specific language environments.",
+        "Changelog": "Update after 6.4.\nFixed electric guitar UI issue.",
         "AcceptsFeedback": false,
         "IsHide": "False",
         "IsTestingExclusive": "False",
         "DownloadCount": 61021,
-        "LastUpdate": "1681476463",
+        "LastUpdate": "1681476679",
         "DownloadLinkInstall": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/plugins/MidiBard2/latest.zip"
@@ -368,7 +368,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "2.9.2",
         "Changelog": "2.9.2 (2023-05-25)\n\n\nBug Fixes\n\n* add condition for all rotations. (e1a1c04)\n* add grade 8 tinctures. (84065f3)\n* add lock for texture. (4a064ac)\n* add traits. (2c607ed)\n* add warning about unrecommond methods. (592b4e8)\n* change countdown. (537c7cc)\n* change the Job. (47f3975)\n* changed icon loading. (7129014)\n* changed the status check. (427ba70)\n* Do not automagically use True North if player has Right Eye status. (1753cec)\n* fixed description about OnlyHotOnTanks. (1c6003d)\n* fixed reference bug. (712cd8c)\n* fixed with drawing. (ffeb164)\n* fixed with PainFlare check in SMN. (cde7bfd)\n* make `ParamTabItem` shown safer. (a6d47d5)\n* New sig for timelinemanager. (9519a45)\n* No drawing of positional overlay if player has Right Eye, True North, or target has no positionals available. (4d41cf1)\n* remove splatoon. Goodbye. (3e5b51b)\n* update io for events. (9e42f92)\n* update watcher. (76816e0)",
-        "DownloadCount": "8930",
+        "DownloadCount": "9215",
         "LastUpdate": 1685024534,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.2/latest.zip",
@@ -426,7 +426,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.6",
         "Changelog": "1.0.6 (2023-05-25)\n\n\nBug Fixes\n\n* patch 6.4 (f338987)",
-        "DownloadCount": "315",
+        "DownloadCount": "328",
         "LastUpdate": 1685025411,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.6/latest.zip",
@@ -644,7 +644,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 35218,
+        "DownloadCount": 35704,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
