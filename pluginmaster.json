@@ -366,13 +366,13 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/RotationSolver/bin/Release/net7.0-windows/RotationSolver/latest.zip",
         "Punchline": "Based on the pve combat information in one frame, find the best action.",
         "AcceptsFeedback": true,
-        "AssemblyVersion": "2.9.2",
-        "Changelog": "2.9.2 (2023-05-25)\n\n\nBug Fixes\n\n* add condition for all rotations. (e1a1c04)\n* add grade 8 tinctures. (84065f3)\n* add lock for texture. (4a064ac)\n* add traits. (2c607ed)\n* add warning about unrecommond methods. (592b4e8)\n* change countdown. (537c7cc)\n* change the Job. (47f3975)\n* changed icon loading. (7129014)\n* changed the status check. (427ba70)\n* Do not automagically use True North if player has Right Eye status. (1753cec)\n* fixed description about OnlyHotOnTanks. (1c6003d)\n* fixed reference bug. (712cd8c)\n* fixed with drawing. (ffeb164)\n* fixed with PainFlare check in SMN. (cde7bfd)\n* make `ParamTabItem` shown safer. (a6d47d5)\n* New sig for timelinemanager. (9519a45)\n* No drawing of positional overlay if player has Right Eye, True North, or target has no positionals available. (4d41cf1)\n* remove splatoon. Goodbye. (3e5b51b)\n* update io for events. (9e42f92)\n* update watcher. (76816e0)",
-        "DownloadCount": "9505",
-        "LastUpdate": 1685024534,
+        "AssemblyVersion": "2.9.3",
+        "Changelog": "2.9.3 (2023-05-27)\n\n\nBug Fixes\n\n* add a collision check for action target. (95ddb00)\n* add healing in combat when nothing to do option. (876e591)\n* add sight check for action target. (6bb38be)\n* add warning in CN server. (5b06021)\n* changed ko-fi link. (5bc40f1)\n* changed the positional showcase. (db83258)\n* fix with Parasol. (f3e14cd)",
+        "DownloadCount": "9503",
+        "LastUpdate": 1685201065,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.2/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.2/latest.zip"
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.3/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.3/latest.zip"
     },
     {
         "Author": "ArchiTed",
@@ -397,7 +397,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.4",
         "Changelog": "1.0.4 (2023-05-08)\n\n\nBug Fixes\n\n* fixed the bug with auto close the window. (da4c721)",
-        "DownloadCount": "224",
+        "DownloadCount": "227",
         "LastUpdate": 1683562170,
         "RepoUrl": "https://github.com/ArchiDog1998/RollForLoot",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RollForLoot/releases/download/v1.0.4/latest.zip",
@@ -424,13 +424,13 @@
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/FakeName/main/icon.png",
         "Punchline": "Show a fake name on your game ui.",
         "AcceptsFeedback": true,
-        "AssemblyVersion": "1.0.6",
-        "Changelog": "1.0.6 (2023-05-25)\n\n\nBug Fixes\n\n* patch 6.4 (f338987)",
-        "DownloadCount": "341",
-        "LastUpdate": 1685025411,
+        "AssemblyVersion": "1.0.7",
+        "Changelog": "1.0.7 (2023-05-28)\n\n\nBug Fixes\n\n* fixed with nameplate hook. (da5bf90)",
+        "DownloadCount": "344",
+        "LastUpdate": 1685239649,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.6/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.6/latest.zip"
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip"
     },
     {
         "Author": "Det",
@@ -644,7 +644,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 37533,
+        "DownloadCount": 37952,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1294,14 +1294,14 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
         "Name": "AutoFaka",
-        "Description": "能自动发卡和抽卡并查看dps\n//faka dixing把地星放在中场，/faka liyi把礼仪之花放在中间，/faka chong自动帮你重抽,",
+        "Description": "能自动发卡和抽卡并查看dps\n//faka dixing把地星放在中场，/faka yezhan把野战放在中间，/faka bihu把庇护所放在中间，/faka liyi把礼仪之花放在中间，\n/faka chong自动帮你重抽,",
         "InternalName": "AutoFaka",
-        "AssemblyVersion": "1.0.0.2",
+        "AssemblyVersion": "1.0.0.3",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1313,7 +1313,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
@@ -1321,7 +1321,7 @@
         "Punchline": "",
         "Description": "查看身为线和狩猎怪",
         "InternalName": "Line",
-        "AssemblyVersion": "1.0.1.0",
+        "AssemblyVersion": "1.0.1.1",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1333,7 +1333,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
@@ -1341,7 +1341,7 @@
         "Punchline": "buff显示",
         "Description": "SeeBuff/n 能通过/SeeBuff ID buffid time 来自定义显示buff",
         "InternalName": "SeeBuff",
-        "AssemblyVersion": "1.0.1.6",
+        "AssemblyVersion": "1.0.1.7",
         "RepoUrl": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1353,7 +1353,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "牙刷play",
@@ -1372,7 +1372,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "Usagi",
@@ -1396,7 +1396,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
@@ -1416,7 +1416,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
@@ -1436,14 +1436,14 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
         "Name": "DDD",
         "Description": "发送数据到inact",
         "InternalName": "DDD",
-        "AssemblyVersion": "1.0.0.6",
+        "AssemblyVersion": "1.0.0.7",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1455,7 +1455,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
@@ -1475,15 +1475,15 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "",
         "Name": "Lock",
         "Punchline": "锁定",
-        "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路\n/LockBOSS qi骑上最近的人\n/LockBOSS cai采集最近的矿,",
+        "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路\n/,",
         "InternalName": "Lock",
-        "AssemblyVersion": "1.0.2.2",
+        "AssemblyVersion": "1.0.2.3",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1495,7 +1495,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1684762951"
+        "LastUpdated": "1685235958"
     },
     {
         "Author": "akira0245",
