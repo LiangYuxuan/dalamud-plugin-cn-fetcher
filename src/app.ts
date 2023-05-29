@@ -1,11 +1,11 @@
 import fs from 'fs/promises';
 
-import apiLevel from './apiLevel.js';
+import apiLevel from './apiLevel';
 import {
     getManifest, getManifestDateBefore, getManifestGH, getManifestDateBeforeGH,
-} from './url.js';
+} from './url';
 
-import type { Manifest } from './types/manifest.js';
+import type { Manifest } from './types/manifest';
 
 const globalPlugins = [
     'https://raw.githubusercontent.com/daemitus/MyDalamudPlugins/master/pluginmaster.json',
