@@ -368,40 +368,11 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "2.9.3",
         "Changelog": "2.9.3 (2023-05-27)\n\n\nBug Fixes\n\n* add a collision check for action target. (95ddb00)\n* add healing in combat when nothing to do option. (876e591)\n* add sight check for action target. (6bb38be)\n* add warning in CN server. (5b06021)\n* changed ko-fi link. (5bc40f1)\n* changed the positional showcase. (db83258)\n* fix with Parasol. (f3e14cd)",
-        "DownloadCount": "9503",
+        "DownloadCount": "9861",
         "LastUpdate": 1685201065,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.3/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.9.3/latest.zip"
-    },
-    {
-        "Author": "ArchiTed",
-        "Name": "Roll For Loot",
-        "InternalName": "RollForLoot",
-        "Description": "Roll for loot, please!",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "roll",
-            "loot"
-        ],
-        "CategoryTags": [
-            "roll"
-        ],
-        "DalamudApiLevel": 8,
-        "LoadRequiredState": 0,
-        "LoadSync": false,
-        "CanUnloadAsync": false,
-        "LoadPriority": 0,
-        "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/RollForLoot/main/icon.png",
-        "Punchline": "Roll for loot, please!",
-        "AcceptsFeedback": true,
-        "AssemblyVersion": "1.0.4",
-        "Changelog": "1.0.4 (2023-05-08)\n\n\nBug Fixes\n\n* fixed the bug with auto close the window. (da4c721)",
-        "DownloadCount": "227",
-        "LastUpdate": 1683562170,
-        "RepoUrl": "https://github.com/ArchiDog1998/RollForLoot",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RollForLoot/releases/download/v1.0.4/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RollForLoot/releases/download/v1.0.4/latest.zip"
     },
     {
         "Author": "ArchiTed, matrix",
@@ -426,7 +397,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.7",
         "Changelog": "1.0.7 (2023-05-28)\n\n\nBug Fixes\n\n* fixed with nameplate hook. (da5bf90)",
-        "DownloadCount": "344",
+        "DownloadCount": "370",
         "LastUpdate": 1685239649,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
@@ -452,7 +423,7 @@
         "IsTestingExclusive": "False",
         "AssemblyVersion": "2.4.4.1",
         "LastUpdated": 1678303302,
-        "DownloadCount": 5963,
+        "DownloadCount": 6683,
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/InitialDet/AutoHook/releases/download/2.4.4.1/latest.zip",
         "DownloadLinkTesting": "https://ghproxy.com/https://github.com/InitialDet/AutoHook/releases/download/2.4.4.1/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/InitialDet/AutoHook/releases/download/2.4.4.1/latest.zip"
@@ -483,7 +454,7 @@
         "IsTestingExclusive": "False",
         "AssemblyVersion": "1.1.2.3",
         "LastUpdated": 1674001897,
-        "DownloadCount": 464,
+        "DownloadCount": 490,
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/InitialDet/MinionRoulette/releases/download/1.1.2.3/latest.zip",
         "DownloadLinkTesting": "https://ghproxy.com/https://github.com/InitialDet/MinionRoulette/releases/download/1.1.2.3/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/InitialDet/MinionRoulette/releases/download/1.1.2.3/latest.zip"
@@ -644,7 +615,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 37952,
+        "DownloadCount": 38664,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -803,7 +774,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/WindowSizeUnlock/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/WindowSizeUnlock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -827,7 +798,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/LootMaster/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/LootMaster/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -849,7 +820,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/EasyZoom/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/EasyZoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -872,7 +843,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/Radar/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/Radar/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -899,7 +870,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/DalamudFontReplacer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/DalamudFontReplacer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -928,7 +899,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MultiboxPlugin/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MultiboxPlugin/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -954,7 +925,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245, Tsubasahane",
@@ -981,7 +952,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast(Endwalker)/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/SmartCast(Endwalker)/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
@@ -1006,16 +977,16 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/ReloadPluginCommand/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/ReloadPluginCommand/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "akira0245",
         "Name": "MidiBard",
         "Punchline": "Bard performance using midi files or keyboard.",
         "Description": "使用MIDI文件或MIDI键盘进行诗人演奏。\nBard performance using midi files or keyboard.\n- Solo and ensemble mode support\n- Text commands for instrument equip and switch",
-        "Changelog": "国服6.3更新\n增加了中文音轨名识别，可选的和弦简化、新的合奏延迟补偿等等。有bug请进群反馈。",
+        "Changelog": "- 更改了一些本地化文本\n- 修复了中文音轨名显示乱码的问题",
         "InternalName": "MidiBard",
-        "AssemblyVersion": "1.16.1.1",
+        "AssemblyVersion": "1.16.2.0",
         "RepoUrl": "https://github.com/akira0245/MidiBard",
         "ApplicableVersion": "any",
         "Tags": [
@@ -1035,7 +1006,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MidiBard/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/akira0245/DalamudPlugins/master/plugins/MidiBard/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1683909954"
+        "LastUpdated": "1685268303"
     },
     {
         "Author": "Nuko",
@@ -1294,14 +1265,14 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
         "Name": "AutoFaka",
-        "Description": "能自动发卡和抽卡并查看dps\n//faka dixing把地星放在中场，/faka yezhan把野战放在中间，/faka bihu把庇护所放在中间，/faka liyi把礼仪之花放在中间，\n/faka chong自动帮你重抽,",
+        "Description": "能自动发卡和抽卡并查看dps\n//faka dixing把地星放在中场，/faka liyi把礼仪之花放在中间，/faka chong自动帮你重抽,",
         "InternalName": "AutoFaka",
-        "AssemblyVersion": "1.0.0.3",
+        "AssemblyVersion": "1.0.0.4",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1313,7 +1284,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
@@ -1321,7 +1292,7 @@
         "Punchline": "",
         "Description": "查看身为线和狩猎怪",
         "InternalName": "Line",
-        "AssemblyVersion": "1.0.1.1",
+        "AssemblyVersion": "1.0.1.2",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1333,7 +1304,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
@@ -1341,7 +1312,7 @@
         "Punchline": "buff显示",
         "Description": "SeeBuff/n 能通过/SeeBuff ID buffid time 来自定义显示buff",
         "InternalName": "SeeBuff",
-        "AssemblyVersion": "1.0.1.7",
+        "AssemblyVersion": "1.0.1.8",
         "RepoUrl": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1353,7 +1324,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "牙刷play",
@@ -1372,7 +1343,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "Usagi",
@@ -1396,7 +1367,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
@@ -1416,7 +1387,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
@@ -1436,14 +1407,14 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
         "Name": "DDD",
         "Description": "发送数据到inact",
         "InternalName": "DDD",
-        "AssemblyVersion": "1.0.0.7",
+        "AssemblyVersion": "1.0.0.8",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1455,7 +1426,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
@@ -1475,15 +1446,15 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "",
         "Name": "Lock",
         "Punchline": "锁定",
-        "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路\n/,",
+        "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路\n/LockBOSS qi骑上最近的人\n/LockBOSS cai采集最近的矿,",
         "InternalName": "Lock",
-        "AssemblyVersion": "1.0.2.3",
+        "AssemblyVersion": "1.0.2.4",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1495,7 +1466,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1685235958"
+        "LastUpdated": "1685265093"
     },
     {
         "Author": "akira0245",
