@@ -12,7 +12,7 @@
       "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx"
     },
     "dependencies": {
-        "got": "^12.6.1"
+        "got": "^13.0.0"
     },
     "devDependencies": {
       "@types/node": "^20.2.3",
