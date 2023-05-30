@@ -22,7 +22,6 @@
       "eslint": "^8.41.0",
       "eslint-config-airbnb-base": "^15.0.0",
       "eslint-config-airbnb-typescript": "^17.0.0",
-      "eslint-plugin-import": "^2.27.5",
       "ts-node": "^10.9.1",
       "typescript": "^5.0.4"
     }
