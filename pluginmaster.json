@@ -368,7 +368,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "2.10.1",
         "Changelog": "2.10.1 (2023-06-07)\n\n\nBug Fixes\n\n* add all heal items. (a250ac8)\n* add feature for auto off when combat end. (6d444b9)\n* more options. (8a05b6d)\n* more painter. (aa12acf)\n* more painting things. (7007fbe)\n* new logic of healing potion usage. (bd7b6b7)\n* remove using overlay window. (f67038a)\n* update drawing. (0209f4a)\n* update drawing. (896ebdb)\n* update with painter. (bf68a22)",
-        "DownloadCount": "11142",
+        "DownloadCount": "11221",
         "LastUpdate": 1686152088,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v2.10.1/latest.zip",
@@ -397,7 +397,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.7",
         "Changelog": "1.0.7 (2023-05-28)\n\n\nBug Fixes\n\n* fixed with nameplate hook. (da5bf90)",
-        "DownloadCount": "462",
+        "DownloadCount": "464",
         "LastUpdate": 1685239649,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
@@ -615,7 +615,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 44349,
+        "DownloadCount": 44493,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1009,6 +1009,29 @@
         "LastUpdated": "1685268303"
     },
     {
+        "Author": "Nuko",
+        "Name": "S怪触发小助手",
+        "Punchline": "一个触发S怪用的小工具",
+        "Description": "一个触发S怪用的小工具",
+        "InternalName": "RankSSpawnHelper",
+        "AssemblyVersion": "1.3.0.5",
+        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "S怪触发",
+            "触发",
+            "S怪"
+        ],
+        "DalamudApiLevel": 8,
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1686615369"
+    },
+    {
         "Author": "Aireil, Nuko",
         "Name": "FF Logs Viewer (CN)",
         "Punchline": "View FF Logs ranking percentiles in-game.",
@@ -1035,30 +1058,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1686221802"
-    },
-    {
-        "Author": "Nuko",
-        "Name": "S怪触发小助手",
-        "Punchline": "一个触发S怪用的小工具",
-        "Description": "一个触发S怪用的小工具",
-        "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.3.0.4",
-        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "S怪触发",
-            "触发",
-            "S怪"
-        ],
-        "DalamudApiLevel": 8,
-        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1686221802"
+        "LastUpdate": "1686615369"
     },
     {
         "Author": "Det",
