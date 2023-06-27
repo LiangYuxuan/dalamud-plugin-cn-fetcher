@@ -366,13 +366,13 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/RotationSolver/bin/Release/net7.0-windows/RotationSolver/latest.zip",
         "Punchline": "Analyses PvE combat information every frame and finds the best action.",
         "AcceptsFeedback": true,
-        "AssemblyVersion": "3.0.0",
-        "Changelog": "3.0.0 (2023-06-24)\n\n\nBREAKING CHANGES\n\n* removed the CooldownHelper! Changed the logic of cd.\n\nFeatures\n\n* an option for showing tooltips. (78ba938)\n\n\nBug Fixes\n\n* action charging checking. (02eceda)\n* add directory existence check for auto rotation library loading. (4f7aa82)\n* removed the CooldownHelper! Changed the logic of cd. (e16e9e7)",
-        "DownloadCount": "12458",
-        "LastUpdate": 1687604624,
+        "AssemblyVersion": "3.0.1",
+        "Changelog": "3.0.1 (2023-06-27)\n\n\nBug Fixes\n\n* add speed ability. (ec31f83)\n* changed heal ratio display. (c7764be)\n* construct element later than init. (7a39853)\n* fixed AST api. (50a502f)\n* fixed description. (3e5fcdb)\n* fixed icon. (f0256a1)\n* icons back. (94030db)\n* match ECommons. (098903e)\n* null bug. (bde469e)",
+        "DownloadCount": "12208",
+        "LastUpdate": 1687875057,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.0/latest.zip"
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.1/latest.zip"
     },
     {
         "Author": "ArchiTed, matrix",
@@ -397,7 +397,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.7",
         "Changelog": "1.0.7 (2023-05-28)\n\n\nBug Fixes\n\n* fixed with nameplate hook. (da5bf90)",
-        "DownloadCount": "519",
+        "DownloadCount": "523",
         "LastUpdate": 1685239649,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
@@ -615,7 +615,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 48144,
+        "DownloadCount": 48247,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1035,7 +1035,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1686982896"
+        "LastUpdate": "1687837995"
     },
     {
         "Author": "Nuko",
@@ -1043,7 +1043,7 @@
         "Punchline": "一个触发S怪用的小工具",
         "Description": "一个触发S怪用的小工具",
         "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.3.0.6",
+        "AssemblyVersion": "1.3.1.0",
         "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
         "ApplicableVersion": "any",
         "Tags": [
@@ -1058,7 +1058,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1686982896"
+        "LastUpdate": "1687837995"
     },
     {
         "Author": "Det",
