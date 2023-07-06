@@ -366,13 +366,13 @@
         "DownloadLinkTesting": "https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/RotationSolver/bin/Release/net7.0-windows/RotationSolver/latest.zip",
         "Punchline": "Analyses PvE combat information every frame and finds the best action.",
         "AcceptsFeedback": true,
-        "AssemblyVersion": "3.0.4",
-        "Changelog": "3.0.4 (2023-07-01)\n\n\nBug Fixes\n\n* safe loading rotations. (0cd704f)",
-        "DownloadCount": "12537",
-        "LastUpdate": 1688217496,
+        "AssemblyVersion": "3.0.5",
+        "Changelog": "3.0.5 (2023-07-06)\n\n\nBug Fixes\n\n* action mistakes? (6b27aa6)\n* action sequencer ui changed. (38ea7d2)\n* add downloading failed warning. (87cb90e)\n* add target friendly. (eff495d)\n* carbuncle delay. (52bd225)\n* changed mistake showing. (8950151)\n* changed the auto target when friendly. (7b4e78a)\n* changed the way to reset value. (3a27f99)\n* fixed mistake ui. (b0fe466)\n* fixed moving target. (2d1378d)\n* fixed reset. (2757d76)\n* set default target to player. (16b0044)",
+        "DownloadCount": "12262",
+        "LastUpdate": 1688648075,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
-        "DownloadLinkInstall": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.4/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.4/latest.zip"
+        "DownloadLinkInstall": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.5/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.5/latest.zip"
     },
     {
         "Author": "ArchiTed, matrix",
@@ -615,7 +615,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 50320,
+        "DownloadCount": 50417,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
