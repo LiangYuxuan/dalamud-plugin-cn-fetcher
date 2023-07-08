@@ -615,7 +615,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 50739,
+        "DownloadCount": 50857,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1009,6 +1009,29 @@
         "LastUpdated": "1685268303"
     },
     {
+        "Author": "Nuko",
+        "Name": "S怪触发小助手",
+        "Punchline": "一个触发S怪用的小工具",
+        "Description": "一个触发S怪用的小工具",
+        "InternalName": "RankSSpawnHelper",
+        "AssemblyVersion": "1.3.1.0",
+        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "S怪触发",
+            "触发",
+            "S怪"
+        ],
+        "DalamudApiLevel": 8,
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1688793829"
+    },
+    {
         "Author": "Aireil, Nuko",
         "Name": "FF Logs Viewer (CN)",
         "Punchline": "View FF Logs ranking percentiles in-game.",
@@ -1035,30 +1058,26 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1687837995"
+        "LastUpdate": "1688793829"
     },
     {
         "Author": "Nuko",
-        "Name": "S怪触发小助手",
-        "Punchline": "一个触发S怪用的小工具",
-        "Description": "一个触发S怪用的小工具",
-        "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.3.1.0",
-        "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
+        "Name": "SpectralCurrentTimer",
+        "Punchline": "Track spectral current uptime in ocean fishing",
+        "Description": "Track spectral current uptime in ocean fishing",
+        "InternalName": "SpectralCurrentTimer",
+        "AssemblyVersion": "1.0.0.0",
+        "RepoUrl": "",
         "ApplicableVersion": "any",
-        "Tags": [
-            "S怪触发",
-            "触发",
-            "S怪"
-        ],
+        "Tags": [],
         "DalamudApiLevel": 8,
-        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1687837995"
+        "LastUpdate": "1688793829"
     },
     {
         "Author": "Det",
