@@ -366,13 +366,13 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/RotationSolver/bin/Release/net7.0-windows/RotationSolver/latest.zip",
         "Punchline": "Analyses PvE combat information every frame and finds the best action.",
         "AcceptsFeedback": true,
-        "AssemblyVersion": "3.0.10",
-        "Changelog": "3.0.10 (2023-07-12)\n\n\nBug Fixes\n\n* add a new try saying for TTT. (4f23d32)\n* changed the way to control DisableMovement. (27324a3)",
-        "DownloadCount": "13386",
-        "LastUpdate": 1689172120,
+        "AssemblyVersion": "3.0.11",
+        "Changelog": "3.0.11 (2023-07-17)\n\n\nBug Fixes\n\n* add an option for auto heal. (bc4a603)\n* add more reset value. (a7938dc)\n* changed encoding to utf-8. (f2e16c4)\n* removed the casting bar color changing feature. (1989db2)\n* removed the one watching cutscene. (9d5cec0)\n* stop casting only effects on hostile targets. (c488244)\n* whm Aquaveil as defense. (f0086b5)",
+        "DownloadCount": "13366",
+        "LastUpdate": 1689603155,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.10/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.10/latest.zip"
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.11/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.11/latest.zip"
     },
     {
         "Author": "ArchiTed, matrix",
@@ -402,6 +402,38 @@
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip"
+    },
+    {
+        "Author": "Tischel, ArchiTed",
+        "Name": "ActionTimelineEx",
+        "InternalName": "ActionTimelineEx",
+        "Description": "Configurable timeline display of all the actions you use.",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "UI"
+        ],
+        "CategoryTags": [
+            "UI"
+        ],
+        "DalamudApiLevel": 8,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "IsTestingExclusive": false,
+        "IconUrl": "https://xivapi.com/i/000000/000073_hr1.png",
+        "Punchline": "Show your actions in real-time.",
+        "ImageUrls": [
+            "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/ActionTimelineEx/main/Images/example.gif"
+        ],
+        "AcceptsFeedback": true,
+        "AssemblyVersion": "1.0.0",
+        "Changelog": "1.0.0 (2023-07-18)\n\n\nBug Fixes\n\n* chaneg timeline name. (9b9e360)\n* changed frame work. (1bf70e4)\n* fixed some bugs. (e785c71)\n* one more time! (9238516)\n* remove and clean. (feae739)",
+        "DownloadCount": "1",
+        "LastUpdate": 1689641214,
+        "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.0.0/latest.zip"
     },
     {
         "Author": "Det",
@@ -615,7 +647,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 52763,
+        "DownloadCount": 52983,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
