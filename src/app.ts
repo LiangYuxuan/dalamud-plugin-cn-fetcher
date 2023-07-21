@@ -64,8 +64,10 @@ const mainHandler = async () => {
         .map(getManifestGH)))
         .forEach((data) => resultGH.push(...data));
 
-    fs.writeFile('pluginmaster.json', JSON.stringify(result, undefined, 4));
-    fs.writeFile('pluginmaster_gh.json', JSON.stringify(resultGH, undefined, 4));
+    await Promise.all([
+        fs.writeFile('pluginmaster.json', JSON.stringify(result, undefined, 4)),
+        fs.writeFile('pluginmaster_gh.json', JSON.stringify(resultGH, undefined, 4)),
+    ]);
 };
 
 mainHandler().catch((error) => {

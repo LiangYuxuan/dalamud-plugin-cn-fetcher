@@ -21,11 +21,11 @@ export default async () => {
 
     const isGlobalGreater = apiLevelCN < apiLevelGlobal;
     if (isGlobalGreater) {
-        let globalCommits = await got.get('https://api.github.com/repos/goatcorp/Dalamud/commits?path=Dalamud/Plugin/Internal/PluginManager.cs', {
+        let globalCommits: Commit[] = await got.get('https://api.github.com/repos/goatcorp/Dalamud/commits?path=Dalamud/Plugin/Internal/PluginManager.cs', {
             headers: {
                 Authorization: process.env.GITHUB_TOKEN,
             },
-        }).json() as Commit[];
+        }).json();
         let apiLevelChangeDate = globalCommits[0].commit.committer?.date
             ?? globalCommits[0].commit.author?.date;
 
@@ -48,7 +48,7 @@ export default async () => {
                     headers: {
                         Authorization: process.env.GITHUB_TOKEN,
                     },
-                }).json() as Commit[];
+                }).json();
 
                 page += 1;
                 index = 0;

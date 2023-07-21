@@ -20,14 +20,15 @@ const getCommitDateBefore = async (
 ) => {
     const key = `${owner}/${repo}/${branch}/${beforeDate}`;
     if (commitCache.has(key)) {
+        // eslint-disable-next-line @typescript-eslint/non-nullable-type-assertion-style
         return commitCache.get(key) as string;
     }
 
-    const commits = await got.get(`https://api.github.com/repos/${owner}/${repo}/commits?sha=${branch}&until=${beforeDate}&per_page=1`, {
+    const commits: Commit[] = await got.get(`https://api.github.com/repos/${owner}/${repo}/commits?sha=${branch}&until=${beforeDate}&per_page=1`, {
         headers: {
             Authorization: process.env.GITHUB_TOKEN,
         },
-    }).json() as Commit[];
+    }).json();
     const { sha } = commits[0];
 
     commitCache.set(key, sha);
@@ -38,6 +39,7 @@ const releaseCache = new Map<string, string>();
 const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: string) => {
     const key = `${owner}/${repo}/${beforeDate}`;
     if (releaseCache.has(key)) {
+        // eslint-disable-next-line @typescript-eslint/non-nullable-type-assertion-style
         return releaseCache.get(key) as string;
     }
 
@@ -45,11 +47,11 @@ const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: str
 
     let index = 0;
     let page = 1;
-    let releases = await got.get(`https://api.github.com/repos/${owner}/${repo}/releases`, {
+    let releases: Release[] = await got.get(`https://api.github.com/repos/${owner}/${repo}/releases`, {
         headers: {
             Authorization: process.env.GITHUB_TOKEN,
         },
-    }).json() as Release[];
+    }).json();
     while (releases.length > 0) {
         const curr = new Date(releases[index].published_at ?? releases[index].created_at);
         if (curr < date) {
@@ -69,7 +71,7 @@ const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: str
                 headers: {
                     Authorization: process.env.GITHUB_TOKEN,
                 },
-            }).json() as Release[];
+            }).json();
         }
     }
 
@@ -161,7 +163,7 @@ const manifestToDateBefore = (data: Manifest[], beforeDate: string) => data.map(
 
 export const getManifest = async (
     url: string,
-) => manifestToProxy(await got.get(url).json() as Manifest[]);
+): Promise<Manifest[]> => manifestToProxy(await got.get(url).json());
 
 export const getManifestDateBefore = async (url: string, apiLevelChangeDate: string) => {
     const matchResult = url.match(rawRegex);
@@ -171,13 +173,13 @@ export const getManifestDateBefore = async (url: string, apiLevelChangeDate: str
 
     const sha = await getCommitDateBefore(owner, repo, branch, apiLevelChangeDate);
 
-    const data = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json() as Manifest[];
+    const data: Manifest[] = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json();
     return manifestToProxy(await Promise.all(manifestToDateBefore(data, apiLevelChangeDate)));
 };
 
 export const getManifestGH = async (
     url: string,
-) => await got.get(url).json() as Manifest[];
+): Promise<Manifest[]> => got.get(url).json();
 
 export const getManifestDateBeforeGH = async (url: string, apiLevelChangeDate: string) => {
     const matchResult = url.match(rawRegex);
@@ -187,6 +189,6 @@ export const getManifestDateBeforeGH = async (url: string, apiLevelChangeDate: s
 
     const sha = await getCommitDateBefore(owner, repo, branch, apiLevelChangeDate);
 
-    const data = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json() as Manifest[];
+    const data: Manifest[] = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json();
     return Promise.all(manifestToDateBefore(data, apiLevelChangeDate));
 };
