@@ -368,7 +368,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "3.0.13",
         "Changelog": "3.0.13 (2023-07-22)\n\n\nBug Fixes\n\n* add knockback check. (8a1b69c)\n* add option for target priority. (0dda775)\n* add reset gcd action in target. (9638433)\n* changed the drawing of target area. (7ceaa37)\n* clean code. (69dd6ea)\n* fixed target area checking. (2fe3a43)\n* make reset more safe. (bd39943)\n* removed auto target on `AutoStartattack` feature. (2f24cd0)\n* removed the positional feedback and add the link to avarice 2.0.3.2 (9fef719)",
-        "DownloadCount": "13634",
+        "DownloadCount": "13819",
         "LastUpdate": 1690036010,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.0.13/latest.zip",
@@ -429,7 +429,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.3.1",
         "Changelog": "1.3.1 (2023-07-22)\n\n\nBug Fixes\n\n* clean cast on data. (1d9a02d)\n* fixed status showing. (f2fffd4)",
-        "DownloadCount": "118",
+        "DownloadCount": "135",
         "LastUpdate": 1690036098,
         "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.1/latest.zip",
@@ -647,7 +647,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 54150,
+        "DownloadCount": 54288,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1046,7 +1046,7 @@
         "Punchline": "一个触发S怪用的小工具",
         "Description": "一个触发S怪用的小工具",
         "InternalName": "RankSSpawnHelper",
-        "AssemblyVersion": "1.3.2.0",
+        "AssemblyVersion": "1.3.2.3",
         "RepoUrl": "https://github.com/NukoOoOoOoO/RankSSpawnHelper",
         "ApplicableVersion": "any",
         "Tags": [
@@ -1061,7 +1061,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1690025007"
+        "LastUpdate": "1690062202"
     },
     {
         "Author": "Aireil, Nuko",
@@ -1090,7 +1090,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1690025007"
+        "LastUpdate": "1690062202"
     },
     {
         "Author": "Nuko",
@@ -1109,7 +1109,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1690025007"
+        "LastUpdate": "1690062202"
     },
     {
         "Author": "Det",
