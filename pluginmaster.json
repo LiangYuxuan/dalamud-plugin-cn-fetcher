@@ -368,7 +368,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "3.1.0",
         "Changelog": "3.1.0 (2023-07-25)\n\n\nFeatures\n\n* removed the restriction of action sequencer. (c19dd60)\n* removed the white list. (3a7bdd6)\n\n\nBug Fixes\n\n* change `SkipDisable` to internal. (28aba55)\n* fixed nextaction macro. (2b1e750)\n* fixed string match. (8939b24)\n* fixed the input thread issue. (a4b6289)\n* fixed the knockback casting. (b69f6df)\n* macro available for `TargetAllForFriendly` (cc532b7)\n* split the stateType to state and isManual. (2acf4fc)",
-        "DownloadCount": "14203",
+        "DownloadCount": "14264",
         "LastUpdate": 1690285247,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.1.0/latest.zip",
@@ -427,13 +427,13 @@
             "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/ActionTimelineEx/main/Images/example.gif"
         ],
         "AcceptsFeedback": true,
-        "AssemblyVersion": "1.3.1",
-        "Changelog": "1.3.1 (2023-07-22)\n\n\nBug Fixes\n\n* clean cast on data. (1d9a02d)\n* fixed status showing. (f2fffd4)",
+        "AssemblyVersion": "1.3.2",
+        "Changelog": "1.3.2 (2023-07-26)\n\n\nBug Fixes\n\n* update ECommons. (20fbc5c)",
         "DownloadCount": "159",
-        "LastUpdate": 1690036098,
+        "LastUpdate": 1690355745,
         "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.1/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.1/latest.zip"
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.2/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.2/latest.zip"
     },
     {
         "Author": "Det",
@@ -647,7 +647,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 54970,
+        "DownloadCount": 55053,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
