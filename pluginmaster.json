@@ -368,7 +368,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "3.1.0",
         "Changelog": "3.1.0 (2023-07-25)\n\n\nFeatures\n\n* removed the restriction of action sequencer. (c19dd60)\n* removed the white list. (3a7bdd6)\n\n\nBug Fixes\n\n* change `SkipDisable` to internal. (28aba55)\n* fixed nextaction macro. (2b1e750)\n* fixed string match. (8939b24)\n* fixed the input thread issue. (a4b6289)\n* fixed the knockback casting. (b69f6df)\n* macro available for `TargetAllForFriendly` (cc532b7)\n* split the stateType to state and isManual. (2acf4fc)",
-        "DownloadCount": "14548",
+        "DownloadCount": "14754",
         "LastUpdate": 1690285247,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.1.0/latest.zip",
@@ -397,7 +397,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.7",
         "Changelog": "1.0.7 (2023-05-28)\n\n\nBug Fixes\n\n* fixed with nameplate hook. (da5bf90)",
-        "DownloadCount": "606",
+        "DownloadCount": "613",
         "LastUpdate": 1685239649,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
@@ -429,7 +429,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.3.2",
         "Changelog": "1.3.2 (2023-07-26)\n\n\nBug Fixes\n\n* update ECommons. (20fbc5c)",
-        "DownloadCount": "194",
+        "DownloadCount": "200",
         "LastUpdate": 1690355745,
         "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.2/latest.zip",
@@ -647,7 +647,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 55700,
+        "DownloadCount": 56079,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1061,23 +1061,20 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1690117336"
+        "LastUpdate": "1690674568"
     },
     {
         "Author": "Aireil, Nuko",
         "Name": "FF Logs Viewer (CN)",
         "Punchline": "View FF Logs ranking percentiles in-game.",
         "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
-        "Changelog": "- 2.1.0.0:\n   Add party view, caching, and abbreviated names (see the update message in the main window for more info).\n- 2.1.1.0:\n   Add context menu on blacklist + misc small fixes",
+        "Changelog": "- 2.1.4.1:\n   Refresh party state when swapping to party view.\n   Add \"party\" or \"p\" argument to /fflogs to open the party view and refresh the party state.\n   Add default view setting.\n- 2.1.4.0:\n   Add cDPS metric, this new metric only works on new reports.\n",
         "InternalName": "FFLogsViewer",
-        "AssemblyVersion": "2.1.1.1",
+        "AssemblyVersion": "2.1.4.1",
         "RepoUrl": "https://github.com/NukoOoOoOoO/FFLogsViewer",
         "ApplicableVersion": "any",
         "Tags": [
-            "FFLogs",
-            "FFLog",
-            "FFLo",
-            "FFL"
+            "FFLogs"
         ],
         "DalamudApiLevel": 8,
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/FFLogsViewer/master/res/icon.png",
@@ -1090,7 +1087,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1690117336"
+        "LastUpdate": "1690674568"
     },
     {
         "Author": "Nuko",
@@ -1109,7 +1106,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1690117336"
+        "LastUpdate": "1690674568"
     },
     {
         "Author": "Det",
