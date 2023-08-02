@@ -364,13 +364,13 @@
         "IconUrl": "https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/docs/RotationSolverIcon_128.png",
         "Punchline": "Analyses PvE combat information every frame and finds the best action.",
         "AcceptsFeedback": true,
-        "AssemblyVersion": "3.1.1",
-        "Changelog": "3.1.1 (2023-07-30)\n\n\nBug Fixes\n\n* add aoeCount to CanUse method. (16eebc5)\n* add config for show toast about do ation. add an test window. (38de866)\n* add duty action. (47d35f6)\n* add friend target self aoe count checking. (9a13c43)\n* add kirbo rotation! (4f10e3e)\n* fix the move target drwaing bug. (1d0a965)\n* fixed dnc moving drawing. (608480c)\n* fixed icon. (9e8564f)\n* fixed input to main. (7d7f758)\n* fixed move ability can't be used issue. (7a93be0)\n* fixed social update. (80f2af4)\n* fixed the case of no gcd. (4fa7f26)\n* remove ottergui. (a6305b4)\n* simplify code. (926381c)\n* ui new ui header. (6958894)",
-        "DownloadCount": "15023",
-        "LastUpdate": 1690686552,
+        "AssemblyVersion": "3.1.2",
+        "Changelog": "3.1.2 (2023-08-01)\n\n\nBug Fixes\n\n* actions panel in game. (376e4d8)\n* add clipping check for medicine. (98446bc)\n* add link about incompatible plugins. (7422723)\n* add resistance check. (4396020)\n* almost finished the `About` tab. (fc1cf06)\n* changed some ui. (a75f140)\n* changed some ui. (3955323)\n* finished new ui actions tab. (11b5259)\n* finished the rotations description. (6bebf95)\n* fixed link png. (749a855)",
+        "DownloadCount": "15085",
+        "LastUpdate": 1690902529,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
-        "DownloadLinkInstall": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.1.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.1.1/latest.zip"
+        "DownloadLinkInstall": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.1.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.1.2/latest.zip"
     },
     {
         "Author": "ArchiTed, matrix",
@@ -395,7 +395,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.7",
         "Changelog": "1.0.7 (2023-05-28)\n\n\nBug Fixes\n\n* fixed with nameplate hook. (da5bf90)",
-        "DownloadCount": "618",
+        "DownloadCount": "621",
         "LastUpdate": 1685239649,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.7/latest.zip",
@@ -425,13 +425,13 @@
             "https://raw.githubusercontent.com/ArchiDog1998/ActionTimelineEx/main/Images/example.gif"
         ],
         "AcceptsFeedback": true,
-        "AssemblyVersion": "1.3.2",
-        "Changelog": "1.3.2 (2023-07-26)\n\n\nBug Fixes\n\n* update ECommons. (20fbc5c)",
-        "DownloadCount": "206",
-        "LastUpdate": 1690355745,
+        "AssemblyVersion": "1.3.3",
+        "Changelog": "1.3.3 (2023-08-01)\n\n\nBug Fixes\n\n* fixed the direct critical showing. (9894ea9)",
+        "DownloadCount": "222",
+        "LastUpdate": 1690901480,
         "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
-        "DownloadLinkInstall": "https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.2/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.2/latest.zip"
+        "DownloadLinkInstall": "https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.3/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.3/latest.zip"
     },
     {
         "Author": "Det",
@@ -645,7 +645,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 56665,
+        "DownloadCount": 56912,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1237,7 +1237,7 @@
         "Punchline": "锁定",
         "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路",
         "InternalName": "Lock",
-        "AssemblyVersion": "1.0.2.5",
+        "AssemblyVersion": "1.0.2.6",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1249,7 +1249,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "attick, daemitus",
@@ -1269,7 +1269,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1289,7 +1289,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1309,7 +1309,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1329,7 +1329,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1349,7 +1349,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1369,7 +1369,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "牙刷play",
@@ -1388,7 +1388,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1407,7 +1407,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "Usagi",
@@ -1415,7 +1415,7 @@
         "Punchline": "A parsing plugin.",
         "Description": "能在replay里面使用的和使用edgetts的加强版",
         "InternalName": "IINACT",
-        "AssemblyVersion": "2.1.3.6",
+        "AssemblyVersion": "2.1.3.7",
         "RepoUrl": "https://github.com/tssailzz8/IINACT",
         "ApplicableVersion": "any",
         "Tags": [
@@ -1431,7 +1431,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "",
@@ -1450,7 +1450,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1689088078"
+        "LastUpdated": "1690899422"
     },
     {
         "Author": "akira0245",
