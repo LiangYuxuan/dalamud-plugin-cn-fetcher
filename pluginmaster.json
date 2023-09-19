@@ -645,7 +645,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 66817,
+        "DownloadCount": 66883,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -693,13 +693,13 @@
     },
     {
         "ApplicableVersion": "any",
-        "AssemblyVersion": "0.2.7",
+        "AssemblyVersion": "0.2.15",
         "Author": "Chirp",
         "DalamudApiLevel": 8,
         "Description": "A robust posing tool for creating screenshots in GPose.",
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.7",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.7",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.7",
+        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.15",
+        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.15",
+        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.15",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/ktisis-tools/Ktisis/main/icon.png",
         "InternalName": "Ktisis",
         "Name": "Ktisis",
@@ -709,7 +709,7 @@
             "posing",
             "ktisis"
         ],
-        "TestingAssemblyVersion": "0.2.7"
+        "TestingAssemblyVersion": "0.2.15"
     },
     {
         "ApplicableVersion": "any",
@@ -762,14 +762,14 @@
     },
     {
         "ApplicableVersion": "any",
-        "AssemblyVersion": "0.0.0.17",
+        "AssemblyVersion": "0.0.0.19",
         "Author": "Bluefissure, Papachin",
         "DalamudApiLevel": 8,
         "Description": "Papa asked me for this so here it is.",
         "DownloadCount": 0,
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.17",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.17",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.17",
+        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
+        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
+        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/MultiHit/0.0.0.19",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/Bluefissure/MultiHit/CN/images/icon.png",
         "InternalName": "MultiHit",
         "IsHide": "False",
@@ -778,7 +778,7 @@
         "Name": "MultiHit",
         "Punchline": "Split flytext into multiple hits.",
         "RepoUrl": "https://github.com/Bluefissure/MultiHit",
-        "TestingAssemblyVersion": "0.0.0.17"
+        "TestingAssemblyVersion": "0.0.0.19"
     },
     {
         "Author": "akira0245",
