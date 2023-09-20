@@ -645,7 +645,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 66975,
+        "DownloadCount": 67077,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1055,7 +1055,34 @@
         "DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/SpectralCurrentTimer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1694677515"
+        "LastUpdate": "1695188214"
+    },
+    {
+        "Author": "Aireil, Nuko",
+        "Name": "FF Logs Viewer (CN)",
+        "Punchline": "View FF Logs ranking percentiles in-game.",
+        "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
+        "Changelog": "- 2.1.4.4:\n   Fix size issues in certain circumstances.\n- 2.1.4.3:\n   Add zone ASP when hovering over an ASP stat.\n   Fix an issue where old members would stay in group view even after a refresh.\n   Add a button to open the main window in the installer.",
+        "InternalName": "FFLogsViewer",
+        "AssemblyVersion": "2.1.4.4",
+        "RepoUrl": "https://github.com/NukoOoOoOoO/FFLogsViewer",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "FFLogs"
+        ],
+        "DalamudApiLevel": 8,
+        "IconUrl": "https://github.com/NukoOoOoOoO/FFLogsViewer/raw/master/res/icon.png",
+        "ImageUrls": [
+            "https://github.com/Aireil/FFLogsViewer/raw/master/res/image1.png",
+            "https://github.com/Aireil/FFLogsViewer/raw/master/res/image2.png"
+        ],
+        "DownloadLinkInstall": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/FFLogsViewer/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/FFLogsViewer/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/FFLogsViewer/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1695188214"
     },
     {
         "Author": "Nuko",
@@ -1078,33 +1105,7 @@
         "DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/RankSSpawnHelper/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1694677515"
-    },
-    {
-        "Author": "Aireil, Nuko",
-        "Name": "FF Logs Viewer (CN)",
-        "Punchline": "View FF Logs ranking percentiles in-game.",
-        "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
-        "Changelog": "- 2.1.4.1:\n   Refresh party state when swapping to party view.\n   Add \"party\" or \"p\" argument to /fflogs to open the party view and refresh the party state.\n   Add default view setting.\n- 2.1.4.0:\n   Add cDPS metric, this new metric only works on new reports.\n",
-        "InternalName": "FFLogsViewer",
-        "AssemblyVersion": "2.1.4.2",
-        "RepoUrl": "https://github.com/NukoOoOoOoO/FFLogsViewer",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "FFLogs"
-        ],
-        "DalamudApiLevel": 8,
-        "IconUrl": "https://github.com/NukoOoOoOoO/FFLogsViewer/raw/master/res/icon.png",
-        "ImageUrls": [
-            "https://github.com/Aireil/FFLogsViewer/raw/master/res/banner.png"
-        ],
-        "DownloadLinkInstall": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/FFLogsViewer/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/FFLogsViewer/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Nukoooo/DalamudPlugins/raw/dev/plugins/FFLogsViewer/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1694677515"
+        "LastUpdate": "1695188214"
     },
     {
         "Author": "Det",
@@ -1151,7 +1152,7 @@
     },
     {
         "Author": "NightmareXIV",
-        "Name": "SplatoonX",
+        "Name": "Splatoon",
         "Punchline": "国服画家 6.4CN 解限特供 ",
         "Description": "国服特供SPLX 6.4CN 仅支持在线安装，本地加载有问题请使用库链接更新。",
         "InternalName": "SplatoonX",
@@ -1249,7 +1250,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "牙刷play",
@@ -1268,7 +1269,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "",
@@ -1288,7 +1289,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "Usagi",
@@ -1296,7 +1297,7 @@
         "Punchline": "A parsing plugin.",
         "Description": "能在replay里面使用的和使用edgetts的加强版",
         "InternalName": "IINACT",
-        "AssemblyVersion": "2.1.3.8",
+        "AssemblyVersion": "2.1.3.9",
         "RepoUrl": "https://github.com/tssailzz8/IINACT",
         "ApplicableVersion": "any",
         "Tags": [
@@ -1312,7 +1313,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "",
@@ -1332,14 +1333,14 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "",
         "Name": "DDD",
         "Description": "发送数据到inact",
         "InternalName": "DDD",
-        "AssemblyVersion": "1.0.0.9",
+        "AssemblyVersion": "1.0.1.0",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1351,29 +1352,27 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
-        "Author": "developer",
+        "Author": "",
         "Name": "Lock",
-        "Punchline": null,
-        "Description": "",
-        "Changelog": null,
+        "Punchline": "锁定",
+        "Description": "锁定BOSS /LockBOSS change 1 靠近水晶切换1号线路",
         "InternalName": "Lock",
-        "AssemblyVersion": "0.0.0.0",
-        "RepoUrl": null,
+        "AssemblyVersion": "1.0.2.7",
+        "RepoUrl": "",
         "ApplicableVersion": "any",
-        "Tags": null,
         "DalamudApiLevel": 8,
-        "IconUrl": null,
-        "ImageUrls": null,
+        "IconUrl": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/2-%E5%9B%BE%E7%89%87.png",
+        "ImageUrls": [],
         "DownloadLinkInstall": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "",
@@ -1393,7 +1392,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "",
@@ -1412,7 +1411,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "",
@@ -1432,7 +1431,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "attick, daemitus",
@@ -1452,7 +1451,7 @@
         "DownloadLinkTesting": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://github.com/tssailzz8/MyPlugins/raw/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695051857"
+        "LastUpdated": "1695211045"
     },
     {
         "Author": "akira0245",
