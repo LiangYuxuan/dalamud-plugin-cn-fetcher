@@ -366,7 +366,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "3.3.1",
         "Changelog": "3.3.1 (2023-09-12)\n\n\nBug Fixes\n\n* add an option for no using resouces. (21aff0b)\n* add desc about conditions. (29ea7f9)\n* add hp, mp. (06de0a7)\n* contributor's case thing. (2106f7d)\n* fixed the reflection issue. (7a05738)\n* release version fix. (801df0e)",
-        "DownloadCount": "13713",
+        "DownloadCount": "13919",
         "LastUpdate": 1694524187,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.3.1/latest.zip",
@@ -395,7 +395,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.9",
         "Changelog": "1.0.9 (2023-08-16)\n\n\nBug Fixes\n\n* fixed checking obs. (e9f5b32)",
-        "DownloadCount": "775",
+        "DownloadCount": "803",
         "LastUpdate": 1692196864,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.9/latest.zip",
@@ -427,7 +427,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.3.4",
         "Changelog": "1.3.4 (2023-08-19)\n\n\nBug Fixes\n\n* add tooltip for every actions and status. (b698f18)",
-        "DownloadCount": "414",
+        "DownloadCount": "422",
         "LastUpdate": 1692418952,
         "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.4/latest.zip",
@@ -645,7 +645,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 67077,
+        "DownloadCount": 67278,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -1250,7 +1250,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "牙刷play",
@@ -1258,7 +1258,7 @@
         "Punchline": "A parsing plugin.",
         "Description": "方便查看buffid和bossid和技能id",
         "InternalName": "SeeBoss",
-        "AssemblyVersion": "1.0.0.3",
+        "AssemblyVersion": "1.0.0.4",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1269,7 +1269,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
@@ -1289,7 +1289,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "Usagi",
@@ -1313,7 +1313,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
@@ -1333,14 +1333,14 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
         "Name": "DDD",
         "Description": "发送数据到inact",
         "InternalName": "DDD",
-        "AssemblyVersion": "1.0.1.0",
+        "AssemblyVersion": "1.0.1.1",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1352,7 +1352,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
@@ -1372,7 +1372,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
@@ -1392,7 +1392,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
@@ -1411,7 +1411,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "",
@@ -1431,7 +1431,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "attick, daemitus",
@@ -1439,7 +1439,7 @@
         "Punchline": "1-1-1.",
         "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. For example, a 1-2-3 combo would become 1-1-1.",
         "InternalName": "XIVComboExpandedest",
-        "AssemblyVersion": "1.0.1.4",
+        "AssemblyVersion": "1.0.1.5",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1451,7 +1451,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695211045"
+        "LastUpdated": "1695253342"
     },
     {
         "Author": "akira0245",
