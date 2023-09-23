@@ -90,9 +90,9 @@
         "Name": "XIVAuras",
         "Description": "Customizable status and cooldown tracking.",
         "InternalName": "XIVAuras",
-        "AssemblyVersion": "0.2.5.0",
-        "TestingAssemblyVersion": "0.2.5.0",
-        "RepoUrl": "https://github.com/lichie567/XIVAuras",
+        "AssemblyVersion": "2.6.1",
+        "TestingAssemblyVersion": "2.6.1",
+        "RepoUrl": "https://github.com/Tischel/XIVAuras",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
         "IsHide": "False",
@@ -100,10 +100,10 @@
         "DownloadCount": 0,
         "LastUpdate": 0,
         "LoadPriority": 69420,
-        "DownloadLinkInstall": "https://github.com/lichie567/XIVAuras/releases/download/0.2.5.0/XIVAuras.zip",
-        "DownloadLinkTesting": "https://github.com/lichie567/XIVAuras/releases/download/0.2.5.0/XIVAuras.zip",
-        "DownloadLinkUpdate": "https://github.com/lichie567/XIVAuras/releases/download/0.2.5.0/XIVAuras.zip",
-        "IconUrl": "https://raw.githubusercontent.com/lichie567/XIVAuras/main/XIVAuras/Media/Images/icon.png"
+        "DownloadLinkInstall": "https://github.com/Tischel/XIVAuras/releases/download/2.6.1/XIVAuras.zip",
+        "DownloadLinkTesting": "https://github.com/Tischel/XIVAuras/releases/download/2.6.1/XIVAuras.zip",
+        "DownloadLinkUpdate": "https://github.com/Tischel/XIVAuras/releases/download/2.6.1/XIVAuras.zip",
+        "IconUrl": "https://raw.githubusercontent.com/Tischel/XIVAuras/main/XIVAuras/Media/Images/icon.png"
     },
     {
         "Author": "Bluefissure",
