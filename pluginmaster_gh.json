@@ -693,13 +693,13 @@
     },
     {
         "ApplicableVersion": "any",
-        "AssemblyVersion": "main",
+        "AssemblyVersion": "0.2.151",
         "Author": "Chirp",
         "DalamudApiLevel": 8,
         "Description": "A robust posing tool for creating screenshots in GPose.",
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/main",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/main",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/main",
+        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.151",
+        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.151",
+        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.151",
         "IconUrl": "https://github.com/ktisis-tools/Ktisis/raw/main/icon.png",
         "InternalName": "Ktisis",
         "Name": "Ktisis",
@@ -709,7 +709,7 @@
             "posing",
             "ktisis"
         ],
-        "TestingAssemblyVersion": "main"
+        "TestingAssemblyVersion": "0.2.151"
     },
     {
         "ApplicableVersion": "any",
