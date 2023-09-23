@@ -17,7 +17,6 @@ const globalPlugins = [
     'https://raw.githubusercontent.com/ArchiDog1998/Dalamud_Plugins/main/pluginmaster.json',
     'https://raw.githubusercontent.com/InitialDet/MyDalamudPlugins/main/pluginmaster.json',
     'https://raw.githubusercontent.com/Aida-Enna/XIVPlugins/main/repo.json',
-    // 'https://raw.githubusercontent.com/carvelli/Dalamud-Plugins/master/dist/pluginmaster.json',
 ];
 
 const CNPlugins = [
@@ -28,6 +27,8 @@ const CNPlugins = [
     'https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/pluginmaster.json',
     'https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/pluginmaster.json',
     'https://raw.githubusercontent.com/emptyset0/Radar_akira0245/master/pluginmaster.json',
+    'https://raw.githubusercontent.com/moewcorp/DalamudPlugins/main/pluginmaster.json',
+    'https://plugins.carvel.li/', // not actually CN plugin
 ];
 
 const mainHandler = async () => {
