@@ -366,7 +366,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "3.3.1",
         "Changelog": "3.3.1 (2023-09-12)\n\n\nBug Fixes\n\n* add an option for no using resouces. (21aff0b)\n* add desc about conditions. (29ea7f9)\n* add hp, mp. (06de0a7)\n* contributor's case thing. (2106f7d)\n* fixed the reflection issue. (7a05738)\n* release version fix. (801df0e)",
-        "DownloadCount": "14023",
+        "DownloadCount": "14109",
         "LastUpdate": 1694524187,
         "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.3.1/latest.zip",
@@ -395,7 +395,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.0.9",
         "Changelog": "1.0.9 (2023-08-16)\n\n\nBug Fixes\n\n* fixed checking obs. (e9f5b32)",
-        "DownloadCount": "814",
+        "DownloadCount": "825",
         "LastUpdate": 1692196864,
         "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.9/latest.zip",
@@ -427,7 +427,7 @@
         "AcceptsFeedback": true,
         "AssemblyVersion": "1.3.4",
         "Changelog": "1.3.4 (2023-08-19)\n\n\nBug Fixes\n\n* add tooltip for every actions and status. (b698f18)",
-        "DownloadCount": "427",
+        "DownloadCount": "429",
         "LastUpdate": 1692418952,
         "RepoUrl": "https://github.com/ArchiDog1998/ActionTimelineEx",
         "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/ActionTimelineEx/releases/download/v1.3.4/latest.zip",
@@ -645,7 +645,7 @@
         "Author": "LeonBlade",
         "DalamudApiLevel": 8,
         "Description": "Move around housing items with coordinates and allows you to place anywhere.",
-        "DownloadCount": 67531,
+        "DownloadCount": 67758,
         "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
         "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/BDTH/1.5.9",
@@ -693,13 +693,13 @@
     },
     {
         "ApplicableVersion": "any",
-        "AssemblyVersion": "0.2.15",
+        "AssemblyVersion": "main",
         "Author": "Chirp",
         "DalamudApiLevel": 8,
         "Description": "A robust posing tool for creating screenshots in GPose.",
-        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.15",
-        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.15",
-        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/0.2.15",
+        "DownloadLinkInstall": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/main",
+        "DownloadLinkTesting": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/main",
+        "DownloadLinkUpdate": "https://dalamud_cn_3rd.otters.cloud/plugins/Ktisis/main",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/ktisis-tools/Ktisis/main/icon.png",
         "InternalName": "Ktisis",
         "Name": "Ktisis",
@@ -709,7 +709,7 @@
             "posing",
             "ktisis"
         ],
-        "TestingAssemblyVersion": "0.2.15"
+        "TestingAssemblyVersion": "main"
     },
     {
         "ApplicableVersion": "any",
@@ -1250,7 +1250,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Line/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "牙刷play",
@@ -1269,7 +1269,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBoss/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
@@ -1277,7 +1277,7 @@
         "Punchline": "自定义快捷键后，鼠标移动到物品上快速roll点或放弃",
         "Description": "自定义快捷键后，鼠标移动到物品上快速roll点或放弃\n使用/SeletRollItem pai能排相关副本理符/SeletRollItem pai 随机任务：练级排练级本",
         "InternalName": "SeletRollItem",
-        "AssemblyVersion": "1.0.1.3",
+        "AssemblyVersion": "1.0.1.4",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1289,7 +1289,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeletRollItem/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "Usagi",
@@ -1313,7 +1313,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/IINACT/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
@@ -1333,7 +1333,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/SeeBuff/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
@@ -1352,7 +1352,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DDD/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
@@ -1372,7 +1372,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Lock/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
@@ -1392,14 +1392,14 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/DrawCure/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
         "Name": "AutoFaka",
         "Description": "能自动发卡和抽卡并查看dps\n//faka dixing把地星放在中场，/faka liyi把礼仪之花放在中间，/faka chong自动帮你重抽,",
         "InternalName": "AutoFaka",
-        "AssemblyVersion": "1.0.0.5",
+        "AssemblyVersion": "1.0.0.6",
         "RepoUrl": "",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -1411,7 +1411,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/AutoFaka/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "",
@@ -1431,7 +1431,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/Zoom/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "attick, daemitus",
@@ -1451,7 +1451,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/tssailzz8/MyPlugins/master/plugins/XIVComboExpandedest/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1695340249"
+        "LastUpdated": "1695387038"
     },
     {
         "Author": "akira0245",
