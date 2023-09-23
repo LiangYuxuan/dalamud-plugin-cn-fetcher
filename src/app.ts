@@ -9,7 +9,7 @@ import type { Manifest } from './types/manifest.js';
 
 const globalPlugins = [
     'https://raw.githubusercontent.com/daemitus/MyDalamudPlugins/master/pluginmaster.json',
-    'https://raw.githubusercontent.com/lichie567/XIVAuras/main/repo.json',
+    'https://raw.githubusercontent.com/Tischel/XIVAuras/main/repo.json',
     'https://raw.githubusercontent.com/Bluefissure/DalamudPlugins/Bluefissure/pluginmaster.json',
     'https://raw.githubusercontent.com/reckhou/DalamudPlugins-Ori/api6/pluginmaster.json',
     'https://raw.githubusercontent.com/lichie567/LMeter/main/repo.json',
