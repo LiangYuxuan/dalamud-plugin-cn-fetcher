@@ -14,6 +14,10 @@ Generate PluginMaster file of Dalamud for CN client and network condition.
 
 `https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/pluginmaster_gh.json`
 
+### Addition
+
+`https://dalamud_cn_3rd.otters.cloud/plugins/all`
+
 ## License
 
 MIT License

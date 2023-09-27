@@ -2,9 +2,9 @@ import assert from 'assert';
 
 import got from 'got';
 
-import type { Commit } from './types/commits';
-import type { Manifest } from './types/manifest';
-import type { Release } from './types/releases';
+import type { Commit } from './types/commits.ts';
+import type { Manifest } from './types/manifest.ts';
+import type { Release } from './types/releases.ts';
 
 const rawRegex = /https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.*)/;
 const ghRawRegex = /https:\/\/(?:www\.)?github\.com\/([^/]+)\/([^/]+)\/raw\/([^/]+)\/(.*)/;
@@ -12,16 +12,16 @@ const ghReleaseRegex = /https:\/\/(?:www\.)?github\.com\/([^/]+)\/([^/]+)\/relea
 const ghReleaseLatestRegex = /https:\/\/(?:www\.)?github\.com\/([^/]+)\/([^/]+)\/releases\/latest\/download\/(.*)/;
 
 const commitCache = new Map<string, string>();
-const getCommitDateBefore = async (
+export const getCommitDateBefore = async (
     owner: string,
     repo: string,
     branch: string,
     beforeDate: string,
 ) => {
     const key = `${owner}/${repo}/${branch}/${beforeDate}`;
-    if (commitCache.has(key)) {
-        // eslint-disable-next-line @typescript-eslint/non-nullable-type-assertion-style
-        return commitCache.get(key) as string;
+    const cache = commitCache.get(key);
+    if (cache) {
+        return cache;
     }
 
     const commits: Commit[] = await got.get(`https://api.github.com/repos/${owner}/${repo}/commits?sha=${branch}&until=${beforeDate}&per_page=1`, {
@@ -36,11 +36,11 @@ const getCommitDateBefore = async (
 };
 
 const releaseCache = new Map<string, string>();
-const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: string) => {
+export const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: string) => {
     const key = `${owner}/${repo}/${beforeDate}`;
-    if (releaseCache.has(key)) {
-        // eslint-disable-next-line @typescript-eslint/non-nullable-type-assertion-style
-        return releaseCache.get(key) as string;
+    const cache = releaseCache.get(key);
+    if (cache) {
+        return cache;
     }
 
     const date = new Date(beforeDate);
@@ -127,68 +127,58 @@ const urlToDateBefore = async (url: string, beforeDate: string) => {
     return url;
 };
 
-const manifestToProxy = (data: Manifest[]) => data.map((plugin) => {
-    const result = plugin;
+export const manifestToProxy = (data: Manifest[]) => data.map((plugin) => {
+    let {
+        DownloadLinkInstall, DownloadLinkUpdate,
+        DownloadLinkTesting, IconUrl, ImageUrls,
+    } = plugin;
 
-    result.DownloadLinkInstall = urlToProxy(result.DownloadLinkInstall);
-    result.DownloadLinkUpdate = urlToProxy(result.DownloadLinkUpdate);
+    DownloadLinkInstall = urlToProxy(DownloadLinkInstall);
+    DownloadLinkUpdate = urlToProxy(DownloadLinkUpdate);
 
-    if (result.DownloadLinkTesting) {
-        result.DownloadLinkTesting = urlToProxy(result.DownloadLinkTesting);
+    if (DownloadLinkTesting) {
+        DownloadLinkTesting = urlToProxy(DownloadLinkTesting);
     }
 
-    if (result.IconUrl) {
-        result.IconUrl = urlToProxy(result.IconUrl);
+    if (IconUrl) {
+        IconUrl = urlToProxy(IconUrl);
     }
 
-    if (result.ImageUrls) {
-        result.ImageUrls = result.ImageUrls.map(urlToProxy);
+    if (ImageUrls) {
+        ImageUrls = ImageUrls.map(urlToProxy);
     }
 
-    return result;
+    return {
+        ...plugin,
+        DownloadLinkInstall,
+        DownloadLinkUpdate,
+        DownloadLinkTesting,
+        IconUrl,
+        ImageUrls,
+    };
 });
 
-const manifestToDateBefore = (data: Manifest[], beforeDate: string) => data.map(async (plugin) => {
-    const result = plugin;
+export const manifestToDateBefore = (
+    data: Manifest[],
+    beforeDate: string,
+) => data.map(async (plugin) => {
+    let {
+        DownloadLinkInstall,
+        DownloadLinkUpdate,
+        DownloadLinkTesting,
+    } = plugin;
 
-    result.DownloadLinkInstall = await urlToDateBefore(result.DownloadLinkInstall, beforeDate);
-    result.DownloadLinkUpdate = await urlToDateBefore(result.DownloadLinkUpdate, beforeDate);
+    DownloadLinkInstall = await urlToDateBefore(DownloadLinkInstall, beforeDate);
+    DownloadLinkUpdate = await urlToDateBefore(DownloadLinkUpdate, beforeDate);
 
-    if (result.DownloadLinkTesting) {
-        result.DownloadLinkTesting = await urlToDateBefore(result.DownloadLinkTesting, beforeDate);
+    if (DownloadLinkTesting) {
+        DownloadLinkTesting = await urlToDateBefore(DownloadLinkTesting, beforeDate);
     }
 
-    return result;
+    return {
+        ...plugin,
+        DownloadLinkInstall,
+        DownloadLinkUpdate,
+        DownloadLinkTesting,
+    };
 });
-
-export const getManifest = async (
-    url: string,
-): Promise<Manifest[]> => manifestToProxy(await got.get(url).json());
-
-export const getManifestDateBefore = async (url: string, apiLevelChangeDate: string) => {
-    const matchResult = url.match(rawRegex);
-    assert(matchResult, `Unknown global plugin url ${url}`);
-
-    const [, owner, repo, branch, tailing] = matchResult;
-
-    const sha = await getCommitDateBefore(owner, repo, branch, apiLevelChangeDate);
-
-    const data: Manifest[] = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json();
-    return manifestToProxy(await Promise.all(manifestToDateBefore(data, apiLevelChangeDate)));
-};
-
-export const getManifestGH = async (
-    url: string,
-): Promise<Manifest[]> => got.get(url).json();
-
-export const getManifestDateBeforeGH = async (url: string, apiLevelChangeDate: string) => {
-    const matchResult = url.match(rawRegex);
-    assert(matchResult, `Unknown global plugin url ${url}`);
-
-    const [, owner, repo, branch, tailing] = matchResult;
-
-    const sha = await getCommitDateBefore(owner, repo, branch, apiLevelChangeDate);
-
-    const data: Manifest[] = await got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`).json();
-    return Promise.all(manifestToDateBefore(data, apiLevelChangeDate));
-};
