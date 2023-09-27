@@ -11,6 +11,11 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+[package.json]
+indent_size = 2
+
+[package-lock.json]
+indent_size = 2
+
 [{*.yml,tsconfig.json}]
-indent_style = space
 indent_size = 2
