@@ -16,10 +16,10 @@
       "got": "^13.0.0"
     },
     "devDependencies": {
-      "@types/node": "^20.8.2",
+      "@types/node": "^20.8.3",
       "@typescript-eslint/eslint-plugin": "^6.7.4",
       "@typescript-eslint/parser": "^6.7.4",
-      "eslint": "^8.50.0",
+      "eslint": "^8.51.0",
       "eslint-config-airbnb-base": "^15.0.0",
       "eslint-config-airbnb-typescript": "^17.1.0",
       "ts-node": "^10.9.1",
