@@ -17,5 +17,5 @@ indent_size = 2
 [package-lock.json]
 indent_size = 2
 
-[{*.yml,tsconfig.json}]
+[*.yml]
 indent_size = 2
