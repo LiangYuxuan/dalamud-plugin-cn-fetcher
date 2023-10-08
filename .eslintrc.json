@@ -15,7 +15,6 @@
         "project": true
     },
     "rules": {
-        "no-console": "off",
         "import/extensions": ["error", "ignorePackages"],
         "@typescript-eslint/indent": ["error", 4]
     }
