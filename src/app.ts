@@ -236,47 +236,40 @@ const repos: Repo[] = [
     },
 ];
 
-const mainHandler = async () => {
-    const today = new Date();
-    const versionCNIndex = versions
-        .findIndex((version) => version.cn && today >= version.cn);
+const today = new Date();
+const versionCNIndex = versions
+    .findIndex((version) => version.cn && today >= version.cn);
 
-    assert(versionCNIndex !== -1, 'Unknown CN version');
+assert(versionCNIndex !== -1, 'Unknown CN version');
 
-    const versionGlobalDate = versionCNIndex > 0
-        && today >= versions[versionCNIndex - 1].global
-        ? versions[versionCNIndex - 1].global.toISOString()
-        : today.toISOString();
+const versionGlobalDate = versionCNIndex > 0
+    && today >= versions[versionCNIndex - 1].global
+    ? versions[versionCNIndex - 1].global.toISOString()
+    : today.toISOString();
 
-    const original = await Promise.all(
-        repos.map(async (repo) => ({
-            repo,
-            manifests: await fetchManifest(repo, versionGlobalDate),
-        })),
-    );
+const original = await Promise.all(
+    repos.map(async (repo) => ({
+        repo,
+        manifests: await fetchManifest(repo, versionGlobalDate),
+    })),
+);
 
-    const processed = await Promise.all(original
-        .map(({ repo, manifests }) => ({
-            repo,
-            manifests: processManifest(repo, manifests),
-        }))
-        .map(({ repo, manifests }) => {
-            if (versionGlobalDate && repo.type === 'github-global') {
-                return Promise.all(manifestToDateBefore(manifests, versionGlobalDate));
-            }
-            return manifests;
-        }));
+const processed = await Promise.all(original
+    .map(({ repo, manifests }) => ({
+        repo,
+        manifests: processManifest(repo, manifests),
+    }))
+    .map(({ repo, manifests }) => {
+        if (versionGlobalDate && repo.type === 'github-global') {
+            return Promise.all(manifestToDateBefore(manifests, versionGlobalDate));
+        }
+        return manifests;
+    }));
 
-    const final = processed.flat();
-    const proxied = manifestToProxy(final);
+const final = processed.flat();
+const proxied = manifestToProxy(final);
 
-    await Promise.all([
-        fs.writeFile('pluginmaster.json', JSON.stringify(proxied, undefined, 4)),
-        fs.writeFile('pluginmaster_gh.json', JSON.stringify(final, undefined, 4)),
-    ]);
-};
-
-mainHandler().catch((error) => {
-    console.error(error);
-    process.exitCode = -1;
-});
+await Promise.all([
+    fs.writeFile('pluginmaster.json', JSON.stringify(proxied, undefined, 4)),
+    fs.writeFile('pluginmaster_gh.json', JSON.stringify(final, undefined, 4)),
+]);

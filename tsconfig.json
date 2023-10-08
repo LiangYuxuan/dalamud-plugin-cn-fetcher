@@ -1,16 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "es2020",
-    "module": "es2020",
-    "rootDir": "./src",
-    "sourceMap": true,
-    "outDir": "./dist",
-    "moduleResolution": "bundler",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "allowImportingTsExtensions": true,
-    "strict": true,
-    "skipLibCheck": true
-  }
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2022",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "moduleResolution": "bundler",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "strict": true,
+        "skipLibCheck": true
+    }
 }
