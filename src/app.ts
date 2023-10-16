@@ -170,10 +170,10 @@ const repos: Repo[] = [
             },
         ],
     },
-    {
-        type: 'direct',
-        url: 'https://love.puni.sh/ment.json',
-    },
+    // {
+    //     type: 'direct',
+    //     url: 'https://love.puni.sh/ment.json',
+    // },
     {
         type: 'github-cn',
         owner: 'akira0245',
