@@ -383,7 +383,7 @@
         "IconUrl": "https://plugins.carvel.li/icons/SliceIsRight.png",
         "Punchline": "Shows where Bamboo falls.",
         "AcceptsFeedback": false,
-        "DownloadCount": 14080,
+        "DownloadCount": 14103,
         "LastUpdate": 1696321802,
         "DownloadLinkInstall": "https://git.carvel.li/liza/SliceIsRight/releases/download/v7.0/SliceIsRight-7.0.zip",
         "Changelog": "v7.0 (2023-10-03)\n- API 9\n\nv6.1 (2023-02-06)\n- Fix AoE markers generating new entries in dalamudUI.ini\n\nv6.0 (2023-01-11)\n- Dalamud API 8 update",
@@ -394,7 +394,7 @@
         "Author": "Liza Carvelli",
         "Name": "Palace Pal",
         "InternalName": "Palace Pal",
-        "AssemblyVersion": "5.1",
+        "AssemblyVersion": "5.2",
         "Description": "Shows possible trap & hoard coffer locations in Palace of the Dead & Heaven on High.\n\nThe default configuration requires Splatoon to be installed. If you do not wish to install Splatoon, you can switch to the experimental 'Simple' renderer in the configuration.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://git.carvel.li/liza/PalacePal",
@@ -412,10 +412,10 @@
         "IconUrl": "https://plugins.carvel.li/icons/PalacePal.png",
         "Punchline": "Shows possible trap & hoard coffer locations in Palace of the Dead & Heaven on High.",
         "AcceptsFeedback": false,
-        "DownloadCount": 45545,
-        "LastUpdate": 1696989392,
-        "DownloadLinkInstall": "https://git.carvel.li/liza/PalacePal/releases/download/v5.1/Palace%20Pal-5.1.zip",
-        "Changelog": "v5.1 (2023-10-11)\n- Fix config window size constraints\n- Replace outdated links\n- Add Patreon link\n\nv5.0 (2023-10-03)\n- API 9\n\nv4.6 (2023-07-31)\n- Update sever url\n- Cleanup\n\nv4.5 (2023-04-13)\n- Fix floor change regex (#18) not working anymore; the state of pomanders of sight/safety now gets updated properly again\n- Code cleanup\n- Server side optimizations\n\nv4.4 (2023-03-26)\n- Dependency Updates",
+        "DownloadCount": 45555,
+        "LastUpdate": 1699525965,
+        "DownloadLinkInstall": "https://git.carvel.li/liza/PalacePal/releases/download/v5.2/Palace%20Pal-5.2.zip",
+        "Changelog": "v5.2 (2023-11-09)\n- Update header icon logic for Dalamud changes\n\nv5.1 (2023-10-11)\n- Fix config window size constraints\n- Replace outdated links\n- Add Patreon link\n\nv5.0 (2023-10-03)\n- API 9\n\nv4.6 (2023-07-31)\n- Update sever url\n- Cleanup\n\nv4.5 (2023-04-13)\n- Fix floor change regex (#18) not working anymore; the state of pomanders of sight/safety now gets updated properly again\n- Code cleanup\n- Server side optimizations",
         "IsHide": false,
         "IsTestingExclusive": false
     },
@@ -466,7 +466,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1698612577"
+        "LastUpdate": "1699531146"
     },
     {
         "Author": "Aki, k-kz, ele-starshade, damolitionn, Taurenkey, Augporto, grimgal, Genesis-Nova, Tartarga",
