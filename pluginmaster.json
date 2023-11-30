@@ -471,10 +471,10 @@
     {
         "Author": "Aki, k-kz, ele-starshade, damolitionn, Taurenkey, Augporto, grimgal, Genesis-Nova, Tartarga",
         "Name": "XIVSlothCombo",
-        "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.6.4汉化",
-        "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.6.4汉化",
+        "Punchline": "update  BLM DRG MCH AST",
+        "Description": "update  BLM DRG MCH AST",
         "InternalName": "XIVSlothCombo",
-        "AssemblyVersion": "3.0.18.9",
+        "AssemblyVersion": "3.0.18.23",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -482,11 +482,11 @@
         "ImageUrls": [
             "https://i.imgur.com/iEcxM81.png"
         ],
-        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/latest.zip",
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/XIVSlothCombo/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/latest.zip",
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/XIVSlothCombo/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/XIVSlothCombo/latest.zip",
         "DownloadCount": 0,
         "LastUpdated": "0"
     },
