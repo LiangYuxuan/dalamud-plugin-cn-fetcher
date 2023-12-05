@@ -143,21 +143,21 @@ const repos: Repo[] = [
             },
         ],
     },
-    {
-        type: 'github-global',
-        owner: 'ArchiDog1998',
-        repo: 'Dalamud_Plugins',
-        branch: 'main',
-        path: 'pluginmaster.json',
-        include: [
-            {
-                Name: 'Rotation Solver',
-            },
-            {
-                Name: 'Fake Name',
-            },
-        ],
-    },
+    // {
+    //     type: 'github-global',
+    //     owner: 'ArchiDog1998',
+    //     repo: 'Dalamud_Plugins',
+    //     branch: 'main',
+    //     path: 'pluginmaster.json',
+    //     include: [
+    //         {
+    //             Name: 'Rotation Solver',
+    //         },
+    //         {
+    //             Name: 'Fake Name',
+    //         },
+    //     ],
+    // },
     {
         type: 'direct',
         url: 'https://plugins.carvel.li/',
