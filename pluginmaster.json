@@ -305,65 +305,6 @@
         "DownloadLinkUpdate": "https://github.com/Aida-Enna/XIVPlugins/blob/main/Plogon/LootMaster.zip?raw=true"
     },
     {
-        "Author": "ArchiTed",
-        "Name": "Rotation Solver",
-        "InternalName": "RotationSolver",
-        "Description": "Analyses PvE combat information every frame and finds the best action.\n\nThis means almost all the information available in one frame in combat, including the status of all players in the party, the status of any hostile targets, skill cooldowns, the MP and HP of characters, the location of characters, casting status of the hostile target, combo, combat duration, player level, etc.\nThen, it will highlight the best action on the hot bar, or help you to click on it.\nIt is designed for `general combat`, not for savage or ultimate. Use it carefully.",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "combat",
-            "rotation"
-        ],
-        "CategoryTags": [
-            "jobs"
-        ],
-        "DalamudApiLevel": 9,
-        "LoadRequiredState": 0,
-        "LoadSync": false,
-        "CanUnloadAsync": false,
-        "LoadPriority": 0,
-        "IsTestingExclusive": false,
-        "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/Images/Logo.png",
-        "Punchline": "Analyses PvE combat information every frame and finds the best action.",
-        "AcceptsFeedback": true,
-        "AssemblyVersion": "3.3.1",
-        "Changelog": "3.3.1 (2023-09-12)\n\n\nBug Fixes\n\n* add an option for no using resouces. (21aff0b)\n* add desc about conditions. (29ea7f9)\n* add hp, mp. (06de0a7)\n* contributor's case thing. (2106f7d)\n* fixed the reflection issue. (7a05738)\n* release version fix. (801df0e)",
-        "DownloadCount": "14788",
-        "LastUpdate": 1694524187,
-        "RepoUrl": "https://github.com/ArchiDog1998/RotationSolver",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.3.1/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/RotationSolver/releases/download/v3.3.1/latest.zip"
-    },
-    {
-        "Author": "ArchiTed, matrix",
-        "Name": "Fake Name",
-        "InternalName": "FakeName",
-        "Description": "Show a fake name on your game ui.",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "display",
-            "name"
-        ],
-        "CategoryTags": [
-            "name"
-        ],
-        "DalamudApiLevel": 8,
-        "LoadRequiredState": 0,
-        "LoadSync": false,
-        "CanUnloadAsync": false,
-        "LoadPriority": 0,
-        "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/ArchiDog1998/FakeName/main/icon.png",
-        "Punchline": "Show a fake name on your game ui.",
-        "AcceptsFeedback": true,
-        "AssemblyVersion": "1.0.9",
-        "Changelog": "1.0.9 (2023-08-16)\n\n\nBug Fixes\n\n* fixed checking obs. (e9f5b32)",
-        "DownloadCount": "858",
-        "LastUpdate": 1692196864,
-        "RepoUrl": "https://github.com/ArchiDog1998/FakeName",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.9/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/ArchiDog1998/FakeName/releases/download/v1.0.9/latest.zip"
-    },
-    {
         "Author": "Liza Carvelli",
         "Name": "Slice is Right",
         "InternalName": "SliceIsRight",
@@ -383,7 +324,7 @@
         "IconUrl": "https://plugins.carvel.li/icons/SliceIsRight.png",
         "Punchline": "Shows where Bamboo falls.",
         "AcceptsFeedback": false,
-        "DownloadCount": 14306,
+        "DownloadCount": 14336,
         "LastUpdate": 1696321802,
         "DownloadLinkInstall": "https://git.carvel.li/liza/SliceIsRight/releases/download/v7.0/SliceIsRight-7.0.zip",
         "Changelog": "v7.0 (2023-10-03)\n- API 9\n\nv6.1 (2023-02-06)\n- Fix AoE markers generating new entries in dalamudUI.ini\n\nv6.0 (2023-01-11)\n- Dalamud API 8 update",
@@ -412,7 +353,7 @@
         "IconUrl": "https://plugins.carvel.li/icons/PalacePal.png",
         "Punchline": "Shows possible trap & hoard coffer locations in Palace of the Dead & Heaven on High.",
         "AcceptsFeedback": false,
-        "DownloadCount": 46026,
+        "DownloadCount": 46044,
         "LastUpdate": 1699989715,
         "DownloadLinkInstall": "https://git.carvel.li/liza/PalacePal/releases/download/v5.4/Palace%20Pal-5.4.zip",
         "Changelog": "v5.4 (2023-11-14)\n- Fix for dalamud's breaking titlebar change\n\nv5.3 (2023-11-11)\n- Update dependencies\n\nv5.2 (2023-11-09)\n- Update header icon logic for Dalamud changes\n\nv5.1 (2023-10-11)\n- Fix config window size constraints\n- Replace outdated links\n- Add Patreon link\n\nv5.0 (2023-10-03)\n- API 9",
@@ -474,7 +415,7 @@
         "Punchline": "update  BLM DRG MCH AST",
         "Description": "update  BLM DRG MCH AST",
         "InternalName": "XIVSlothCombo",
-        "AssemblyVersion": "3.0.18.25",
+        "AssemblyVersion": "3.0.18.28",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
