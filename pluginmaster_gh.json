@@ -412,10 +412,11 @@
     {
         "Author": "Aki, k-kz, ele-starshade, damolitionn, Taurenkey, Augporto, grimgal, Genesis-Nova, Tartarga",
         "Name": "XIVSlothCombo",
-        "Punchline": "update  BLM DRG MCH AST",
-        "Description": "update  BLM DRG MCH AST",
+        "Punchline": "改名为XIVSlothComboX，后续将在XIVSlothComboX更新了",
+        "Description": "改名为XIVSlothComboX，后续将在XIVSlothComboX更新了",
         "InternalName": "XIVSlothCombo",
-        "AssemblyVersion": "3.0.18.28",
+        "AssemblyVersion": "3.0.18.30",
+        "Changelog": "改名为XIVSlothComboX",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 8,
@@ -423,11 +424,11 @@
         "ImageUrls": [
             "https://i.imgur.com/iEcxM81.png"
         ],
-        "DownloadLinkInstall": "https://github.com/44451516/XIVSlothCombo/raw/CN/release/XIVSlothCombo/latest.zip",
+        "DownloadLinkInstall": "https://github.com/44451516/XIVSlothCombo/raw/CN/release/XIVSlothComboX/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/44451516/XIVSlothCombo/raw/CN/release/XIVSlothCombo/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/44451516/XIVSlothCombo/raw/CN/release/XIVSlothCombo/latest.zip",
+        "DownloadLinkTesting": "https://github.com/44451516/XIVSlothCombo/raw/CN/release/XIVSlothComboX/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516/XIVSlothCombo/raw/CN/release/XIVSlothComboX/latest.zip",
         "DownloadCount": 0,
         "LastUpdated": "0"
     },
