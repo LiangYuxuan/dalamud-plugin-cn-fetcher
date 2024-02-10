@@ -206,7 +206,7 @@ const repos: Repo[] = [
         path: 'release/pluginmaster.json',
         include: [
             {
-                Name: 'XIVSlothCombo',
+                Name: 'XIVSlothComboX',
             },
         ],
     },
