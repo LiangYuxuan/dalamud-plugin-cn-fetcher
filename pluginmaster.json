@@ -410,6 +410,29 @@
         "LastUpdate": "1704519164"
     },
     {
+        "Author": "Aki, k-kz, ele-starshade, damolitionn, Taurenkey, Augporto, grimgal, Genesis-Nova, Tartarga",
+        "Name": "XIVSlothComboX",
+        "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+        "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+        "InternalName": "XIVSlothComboX",
+        "AssemblyVersion": "3.0.18.53",
+        "Changelog": "机工优化：更科学的使用整备",
+        "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 8,
+        "IconUrl": "https://i.imgur.com/iEcxM81.png",
+        "ImageUrls": [
+            "https://i.imgur.com/iEcxM81.png"
+        ],
+        "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/XIVSlothComboX/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/XIVSlothComboX/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/44451516/XIVSlothCombo/CN/release/XIVSlothComboX/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdated": "0"
+    },
+    {
         "Author": "akira0245",
         "Name": "Radar",
         "InternalName": "Radar",
