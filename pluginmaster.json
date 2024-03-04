@@ -324,7 +324,7 @@
         "IconUrl": "https://plugins.carvel.li/icons/SliceIsRight.png",
         "Punchline": "Shows where Bamboo falls.",
         "AcceptsFeedback": false,
-        "DownloadCount": 15262,
+        "DownloadCount": 15269,
         "LastUpdate": 1696321802,
         "DownloadLinkInstall": "https://git.carvel.li/liza/SliceIsRight/releases/download/v7.0/SliceIsRight-7.0.zip",
         "Changelog": "v7.0 (2023-10-03)\n- API 9\n\nv6.1 (2023-02-06)\n- Fix AoE markers generating new entries in dalamudUI.ini\n\nv6.0 (2023-01-11)\n- Dalamud API 8 update",
