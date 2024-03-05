@@ -129,6 +129,18 @@ const repos: Repo[] = [
         ],
     },
     {
+        type: 'github-global',
+        owner: 'Penumbra-Sync',
+        repo: 'repo',
+        branch: 'main',
+        path: 'plogonmaster.json',
+        include: [
+            {
+                Name: 'Mare Synchronos',
+            },
+        ],
+    },
+    {
         type: 'direct',
         url: 'https://plugins.carvel.li/',
         include: [
