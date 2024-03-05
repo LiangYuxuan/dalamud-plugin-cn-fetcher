@@ -1,5 +1,5 @@
-import assert from 'assert';
-import fs from 'fs/promises';
+import assert from 'node:assert';
+import fs from 'node:fs/promises';
 
 import { fetchManifest, processManifest, Repo } from './repos.ts';
 import {
@@ -18,6 +18,7 @@ const versions: VersionInfo[] = [
     {
         version: '6.5',
         global: new Date('2023-10-03T08:00:00Z'),
+        cn: new Date('2024-03-05T08:00:00Z'),
     },
     {
         version: '6.4',
@@ -39,12 +40,6 @@ const repos: Repo[] = [
         branch: 'master',
         path: 'pluginmaster.json',
         include: [
-            {
-                Name: 'Something Need Doing',
-            },
-            {
-                Name: 'Yes Already',
-            },
             {
                 Name: 'XIV Combo Expanded',
             },
@@ -115,18 +110,6 @@ const repos: Repo[] = [
     },
     {
         type: 'github-global',
-        owner: 'InitialDet',
-        repo: 'MyDalamudPlugins',
-        branch: 'main',
-        path: 'pluginmaster.json',
-        include: [
-            {
-                Name: 'Auto Hook',
-            },
-        ],
-    },
-    {
-        type: 'github-global',
         owner: 'Aida-Enna',
         repo: 'XIVPlugins',
         branch: 'main',
@@ -143,21 +126,6 @@ const repos: Repo[] = [
             },
         ],
     },
-    // {
-    //     type: 'github-global',
-    //     owner: 'ArchiDog1998',
-    //     repo: 'Dalamud_Plugins',
-    //     branch: 'main',
-    //     path: 'pluginmaster.json',
-    //     include: [
-    //         {
-    //             Name: 'Rotation Solver',
-    //         },
-    //         {
-    //             Name: 'Fake Name',
-    //         },
-    //     ],
-    // },
     {
         type: 'direct',
         url: 'https://plugins.carvel.li/',
@@ -170,10 +138,10 @@ const repos: Repo[] = [
             },
         ],
     },
-    // {
-    //     type: 'direct',
-    //     url: 'https://love.puni.sh/ment.json',
-    // },
+    {
+        type: 'direct',
+        url: 'https://love.puni.sh/ment.json',
+    },
     {
         type: 'github-cn',
         owner: 'akira0245',
@@ -188,7 +156,7 @@ const repos: Repo[] = [
     },
     {
         type: 'github-cn',
-        owner: 'NukoOoOoOoO',
+        owner: 'Nukoooo',
         repo: 'DalamudPlugins',
         branch: 'dev',
         path: 'pluginmaster.json',
