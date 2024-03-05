@@ -415,11 +415,11 @@
         "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "InternalName": "XIVSlothComboX",
-        "AssemblyVersion": "3.0.18.54",
-        "Changelog": "Fix:War skill description error",
+        "AssemblyVersion": "3.0.19.0",
+        "Changelog": "API9",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 8,
+        "DalamudApiLevel": 9,
         "IconUrl": "https://i.imgur.com/iEcxM81.png",
         "ImageUrls": [
             "https://i.imgur.com/iEcxM81.png"
