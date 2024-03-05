@@ -127,7 +127,7 @@ const urlToDateBefore = async (url: string, beforeDate: string) => {
     return url;
 };
 
-export const manifestToProxy = (data: Manifest[]) => data.map((plugin) => {
+export const updateManifestToProxy = (data: Manifest[]) => data.map((plugin) => {
     let {
         DownloadLinkInstall, DownloadLinkUpdate,
         DownloadLinkTesting, IconUrl, ImageUrls,
@@ -163,7 +163,7 @@ export const manifestToProxy = (data: Manifest[]) => data.map((plugin) => {
     };
 });
 
-export const manifestToDateBefore = (
+export const updateManifestToDateBefore = (
     data: Manifest[],
     beforeDate: string,
 ) => data.map(async (plugin) => {

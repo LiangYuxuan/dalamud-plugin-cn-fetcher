@@ -41,7 +41,13 @@ interface DirectRepo extends ModifiedRules {
     url: string,
 }
 
-export type Repo = GitHubGlobalRepo | GitHubCNRepo | DirectRepo;
+interface DelayGlobalRepo extends ModifiedRules {
+    type: 'delay',
+    url: string,
+    key: string,
+}
+
+export type Repo = GitHubGlobalRepo | GitHubCNRepo | DirectRepo | DelayGlobalRepo;
 
 export const getRepoString = (repo: Repo): string => {
     switch (repo.type) {
@@ -121,12 +127,13 @@ export const fetchManifest = async (
             } = value;
             return got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`).json<Manifest[]>();
         }
-        case 'direct': {
+        case 'direct':
+        case 'delay': {
             const { url } = value;
             return got.get(url).json<Manifest[]>();
         }
         default:
-            value satisfies unknown;
+            value satisfies never;
             throw new Error('Unknown repo type');
     }
 };

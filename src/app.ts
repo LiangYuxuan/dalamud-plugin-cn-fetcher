@@ -5,8 +5,11 @@ import {
     fetchManifest, processManifest, getRepoString, Repo,
 } from './repos.ts';
 import {
-    manifestToDateBefore, manifestToProxy,
+    updateManifestToDateBefore, updateManifestToProxy,
 } from './url.ts';
+import {
+    storeManifestFiles, getManifestFromStored,
+} from './delay.ts';
 
 interface VersionInfo {
     version: string,
@@ -141,20 +144,14 @@ const repos: Repo[] = [
         ],
     },
     {
-        type: 'direct',
+        type: 'delay',
         url: 'https://plugins.carvel.li/',
-        include: [
-            {
-                Name: 'Slice is Right',
-            },
-            {
-                Name: 'Palace Pal',
-            },
-        ],
+        key: 'carvel',
     },
     {
-        type: 'direct',
+        type: 'delay',
         url: 'https://love.puni.sh/ment.json',
+        key: 'punish',
     },
     {
         type: 'github-cn',
@@ -247,18 +244,27 @@ const processed = await Promise.all(original
         manifests: processManifest(repo, manifests),
     }))
     .map(({ repo, manifests }) => {
-        if (versionGlobalDate && repo.type === 'github-global') {
+        if (repo.type === 'github-global') {
             return Promise
-                .all(manifestToDateBefore(manifests, versionGlobalDate))
+                .all(updateManifestToDateBefore(manifests, versionGlobalDate))
                 .catch((error) => {
                     throw new Error(`Failed to get old versions for ${getRepoString(repo)}: ${error}`);
                 });
+        }
+        if (repo.type === 'delay') {
+            if (versionCNIndex === 0) {
+                // global === cn, update stored files
+                return storeManifestFiles(repo.key, manifests);
+            }
+
+            // global > cn, use stored files
+            return getManifestFromStored(repo.key);
         }
         return manifests;
     }));
 
 const final = processed.flat();
-const proxied = manifestToProxy(final);
+const proxied = updateManifestToProxy(final);
 
 await Promise.all([
     fs.writeFile('pluginmaster.json', JSON.stringify(proxied, undefined, 4)),

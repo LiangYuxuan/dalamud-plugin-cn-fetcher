@@ -38,4 +38,4 @@ jobs:
           author_name: GitHub Action
           author_email: github-actions[bot]@users.noreply.github.com
           message: Regenerate PluginMaster
-          add: 'pluginmaster.json pluginmaster_gh.json'
+          add: 'pluginmaster.json pluginmaster_gh.json store/*/pluginmaster.json store/*/*.zip'
