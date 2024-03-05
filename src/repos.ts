@@ -43,6 +43,19 @@ interface DirectRepo extends ModifiedRules {
 
 export type Repo = GitHubGlobalRepo | GitHubCNRepo | DirectRepo;
 
+export const getRepoString = (repo: Repo): string => {
+    switch (repo.type) {
+        case 'direct':
+            return `direct:${repo.url}`;
+        case 'github-global':
+        case 'github-cn':
+            return `${repo.type}:${repo.owner}/${repo.repo}`;
+        default:
+            repo satisfies unknown;
+            throw new Error('Unknown repo type');
+    }
+};
+
 const matchManifest = (
     manifest: Manifest,
     match: ManifestMatch,
@@ -61,7 +74,7 @@ export const processManifest = (
             .every((match) => result.some((manifest) => matchManifest(manifest, match)));
 
         if (!allIncludeExists) {
-            throw new Error(`Some included plugins are not found in ${repo.type === 'direct' ? repo.url : `${repo.owner}/${repo.repo}`}`);
+            throw new Error(`Some included plugins are not found in ${getRepoString(repo)}`);
         }
 
         result = result

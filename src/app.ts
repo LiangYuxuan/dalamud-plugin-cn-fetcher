@@ -1,7 +1,9 @@
 import assert from 'node:assert';
 import fs from 'node:fs/promises';
 
-import { fetchManifest, processManifest, Repo } from './repos.ts';
+import {
+    fetchManifest, processManifest, getRepoString, Repo,
+} from './repos.ts';
 import {
     manifestToDateBefore, manifestToProxy,
 } from './url.ts';
@@ -218,7 +220,12 @@ const versionGlobalDate = versionCNIndex > 0
 const original = await Promise.all(
     repos.map(async (repo) => ({
         repo,
-        manifests: await fetchManifest(repo, versionGlobalDate),
+        manifests: await (
+            fetchManifest(repo, versionGlobalDate)
+                .catch((error) => {
+                    throw new Error(`Failed to fetch ${getRepoString(repo)}: ${error}`);
+                })
+        ),
     })),
 );
 
@@ -229,7 +236,11 @@ const processed = await Promise.all(original
     }))
     .map(({ repo, manifests }) => {
         if (versionGlobalDate && repo.type === 'github-global') {
-            return Promise.all(manifestToDateBefore(manifests, versionGlobalDate));
+            return Promise
+                .all(manifestToDateBefore(manifests, versionGlobalDate))
+                .catch((error) => {
+                    throw new Error(`Failed to get old versions for ${getRepoString(repo)}: ${error}`);
+                });
         }
         return manifests;
     }));
