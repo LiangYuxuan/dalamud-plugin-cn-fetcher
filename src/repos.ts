@@ -57,6 +57,13 @@ export const processManifest = (
 
     let result = manifests;
     if (include) {
+        const allIncludeExists = include
+            .every((match) => result.some((manifest) => matchManifest(manifest, match)));
+
+        if (!allIncludeExists) {
+            throw new Error(`Some included plugins are not found in ${repo.type === 'direct' ? repo.url : `${repo.owner}/${repo.repo}`}`);
+        }
+
         result = result
             .filter((manifest) => include.some((match) => matchManifest(manifest, match)));
     }
@@ -106,6 +113,7 @@ export const fetchManifest = async (
             return got.get(url).json<Manifest[]>();
         }
         default:
+            value satisfies unknown;
             throw new Error('Unknown repo type');
     }
 };
