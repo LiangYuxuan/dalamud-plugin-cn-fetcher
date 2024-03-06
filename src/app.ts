@@ -144,6 +144,18 @@ const repos: Repo[] = [
         ],
     },
     {
+        type: 'github-global',
+        owner: 'a08381',
+        repo: 'Dalamud.SkipCutscene',
+        branch: 'dist',
+        path: 'repo.json',
+        include: [
+            {
+                Name: 'SkipCutscene',
+            },
+        ],
+    },
+    {
         type: 'delay',
         url: 'https://plugins.carvel.li/',
         key: 'carvel',
@@ -198,18 +210,6 @@ const repos: Repo[] = [
         include: [
             {
                 Name: 'Radar',
-            },
-        ],
-    },
-    {
-        type: 'github-cn',
-        owner: 'moewcorp',
-        repo: 'DalamudPlugins',
-        branch: 'main',
-        path: 'pluginmaster.json',
-        include: [
-            {
-                Name: 'SkipCutscene',
             },
         ],
     },
