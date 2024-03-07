@@ -213,6 +213,18 @@ const repos: Repo[] = [
             },
         ],
     },
+    {
+        type: 'github-cn',
+        owner: 'tssailzz8',
+        repo: 'MyPlugins',
+        branch: 'main',
+        path: 'pluginmaster.json',
+        include: [
+            {
+                Name: 'Lifu',
+            },
+        ],
+    },
 ];
 
 const today = new Date();
