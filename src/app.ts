@@ -221,7 +221,7 @@ const repos: Repo[] = [
         path: 'pluginmaster.json',
         include: [
             {
-                Name: 'Lifu',
+                Name: 'LiFu',
             },
         ],
     },
