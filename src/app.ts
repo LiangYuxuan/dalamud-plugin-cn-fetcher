@@ -213,6 +213,18 @@ const repos: Repo[] = [
             },
         ],
     },
+    {
+        type: 'github-cn',
+        owner: 'AtmoOmen',
+        repo: 'DalamudPlugins',
+        branch: 'main',
+        path: 'pluginmaster.json',
+        include: [
+            {
+                Name: 'Daily Routines',
+            },
+        ],
+    },
 ];
 
 const today = new Date();
