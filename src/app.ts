@@ -53,18 +53,6 @@ const repos: Repo[] = [
     {
         type: 'github-global',
         owner: 'Tischel',
-        repo: 'XIVAuras',
-        branch: 'main',
-        path: 'repo.json',
-        include: [
-            {
-                Name: 'XIVAuras',
-            },
-        ],
-    },
-    {
-        type: 'github-global',
-        owner: 'Tischel',
         repo: 'LMeter',
         branch: 'main',
         path: 'repo.json',
