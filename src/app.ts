@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import assert from 'node:assert';
 import fs from 'node:fs/promises';
 
@@ -231,8 +233,9 @@ const original = await Promise.all(
         repo,
         manifests: await (
             fetchManifest(repo, versionGlobalDate)
-                .catch((error) => {
-                    throw new Error(`Failed to fetch ${getRepoString(repo)}: ${error}`);
+                .catch((error: unknown) => {
+                    console.error(`Failed to fetch ${getRepoString(repo)}`);
+                    throw error;
                 })
         ),
     })),
@@ -247,8 +250,9 @@ const processed = await Promise.all(original
         if (repo.type === 'github-global') {
             return Promise
                 .all(updateManifestToDateBefore(manifests, versionGlobalDate))
-                .catch((error) => {
-                    throw new Error(`Failed to get old versions for ${getRepoString(repo)}: ${error}`);
+                .catch((error: unknown) => {
+                    console.error(`Failed to get old versions for ${getRepoString(repo)}`);
+                    throw error;
                 });
         }
         if (repo.type === 'delay') {

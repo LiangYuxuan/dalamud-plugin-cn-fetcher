@@ -67,7 +67,7 @@ export const getReleaseDateBefore = async (owner: string, repo: string, beforeDa
             index = 0;
 
             // eslint-disable-next-line no-await-in-loop
-            releases = await got.get(`https://api.github.com/repos/${owner}/${repo}/releases?page=${page}`, {
+            releases = await got.get(`https://api.github.com/repos/${owner}/${repo}/releases?page=${page.toString()}`, {
                 headers: {
                     Authorization: process.env.GITHUB_TOKEN,
                 },
