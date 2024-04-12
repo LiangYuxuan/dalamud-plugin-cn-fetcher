@@ -156,6 +156,11 @@ const repos: Repo[] = [
         key: 'punish',
     },
     {
+        type: 'delay',
+        url: 'https://puni.sh/api/repository/veyn',
+        key: 'veyn',
+    },
+    {
         type: 'github-cn',
         owner: 'akira0245',
         repo: 'DalamudPlugins',
