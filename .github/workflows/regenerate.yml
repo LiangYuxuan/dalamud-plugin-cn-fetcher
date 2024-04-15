@@ -1,4 +1,4 @@
-name: Regenerate
+name: regenerate
 
 on:
   workflow_dispatch:
@@ -37,5 +37,5 @@ jobs:
         with:
           author_name: GitHub Action
           author_email: github-actions[bot]@users.noreply.github.com
-          message: Regenerate PluginMaster
+          message: 'chore: regenerate pluginmaster'
           add: 'pluginmaster.json pluginmaster_gh.json store/*/pluginmaster.json store/*/*.zip'
