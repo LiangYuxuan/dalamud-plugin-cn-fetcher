@@ -997,9 +997,9 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "0.4.0.0",
+        "AssemblyVersion": "0.4.1.0",
         "Author": "AtmoOmen",
-        "DownloadCount": 65912,
+        "DownloadCount": 71256,
         "Punchline": "帮忙解决一些日常重复性劳动",
         "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
         "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
@@ -1014,8 +1014,8 @@
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
-        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.0.0/latest.zip",
-        "DownloadLinkTesting": "https://ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.0.0/latest.zip"
+        "DownloadLinkInstall": "https://ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.1.0/latest.zip",
+        "DownloadLinkTesting": "https://ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.1.0/latest.zip"
     }
 ]
