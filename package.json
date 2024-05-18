@@ -13,7 +13,7 @@
     "lint:fix": "eslint src/ --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
-    "got": "^14.2.1"
+    "got": "^14.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
