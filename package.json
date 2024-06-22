@@ -16,7 +16,7 @@
     "got": "^14.4.1"
   },
   "devDependencies": {
-    "@types/node": "^20.14.7",
+    "@types/node": "^20.14.8",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "eslint": "^8.57.0",
