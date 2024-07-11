@@ -163,6 +163,11 @@ const repos: Repo[] = [
         type: 'delay',
         url: 'https://puni.sh/api/repository/veyn',
         key: 'veyn',
+        exclude: [
+            {
+                Name: 'Boss Mod',
+            },
+        ],
     },
     {
         type: 'github-cn',
@@ -197,6 +202,18 @@ const repos: Repo[] = [
         include: [
             {
                 Name: 'XIVSlothComboX',
+            },
+        ],
+    },
+    {
+        type: 'github-cn',
+        owner: '44451516',
+        repo: 'ffxiv_bossmod',
+        branch: 'CN',
+        path: 'pluginmaster.json',
+        include: [
+            {
+                Name: 'Boss Mod',
             },
         ],
     },
