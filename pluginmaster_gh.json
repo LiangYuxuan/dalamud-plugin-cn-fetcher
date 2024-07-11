@@ -972,6 +972,31 @@
         "LastUpdated": "0"
     },
     {
+        "Author": "veyn",
+        "Name": "Boss Mod",
+        "InternalName": "BossMod",
+        "AssemblyVersion": "0.0.6.51",
+        "Description": "2024_04_07_UPDATE",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/44451516/ffxiv_bossmod",
+        "Changelog": "以后去CN分支谢谢亲！",
+        "DalamudApiLevel": 9,
+        "LoadPriority": 0,
+        "ImageUrls": [
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image1.png",
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image2.png",
+            "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/image3.png"
+        ],
+        "IconUrl": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/f4efcb5dc279d21ee16185d5a9f2d09a3a2bc58b/Data/icon.png",
+        "Punchline": "Don't fail at raid mechanics anymore",
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "LastUpdate": "1658532627",
+        "DownloadLinkInstall": "https://github.com/44451516/ffxiv_bossmod/raw/CN/release/BossMod/latest.zip",
+        "DownloadLinkTesting": "https://github.com/44451516/ffxiv_bossmod/raw/CN/release/BossMod/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/44451516/ffxiv_bossmod/raw/CN/release/BossMod/latest.zip"
+    },
+    {
         "Author": "akira0245",
         "Name": "Radar",
         "InternalName": "Radar",
