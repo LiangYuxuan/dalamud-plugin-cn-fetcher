@@ -926,15 +926,15 @@
         "Name": "FF Logs Viewer (CN)",
         "Punchline": "View FF Logs ranking percentiles in-game.",
         "Description": "View FF Logs ranking percentiles in-game. Add a context menu to open someone's logs. Layout, style, stats, default metric, and more are all customizable in the settings.",
-        "Changelog": "- 2.1.6.2:\n   Add forcing aDPS layout entry setting. This is only useful if you have encounters in your layout that do not support your default metric.\n- 2.1.6.1:\n   Add an option to always open the party view.\n- 2.1.6.0:\n   Add an option to open the party view when using the context menu from a party list-related window.\n   Add Tomestone option when opening a link.\n   \"Open With\" will no longer open on private PFs.\n   Use Dalamud's context menu.\n   Some miscellaneous behind-the-scenes changes.",
+        "Changelog": "-2.1.7.7\n   Fix broken stat layout in party view\n-2.1.7.5\n   Update extremes names\n   Fix context menu not working in blacklist and mute list",
         "InternalName": "FFLogsViewer",
-        "AssemblyVersion": "2.1.5.3",
+        "AssemblyVersion": "2.1.7.7",
         "RepoUrl": "https://github.com/NukoOoOoOoO/FFLogsViewer",
         "ApplicableVersion": "any",
         "Tags": [
             "FFLogs"
         ],
-        "DalamudApiLevel": 9,
+        "DalamudApiLevel": 10,
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/NukoOoOoOoO/FFLogsViewer/master/res/icon.png",
         "ImageUrls": [
             "https://ghproxy.com/https://raw.githubusercontent.com/Aireil/FFLogsViewer/master/res/image1.png",
@@ -946,7 +946,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1713629460"
+        "LastUpdate": "1727457851"
     },
     {
         "Author": "Team Sloth",
@@ -954,7 +954,7 @@
         "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "InternalName": "XIVSlothComboX",
-        "AssemblyVersion": "3.2.0.0",
+        "AssemblyVersion": "3.2.0.1",
         "Changelog": "Update APIX",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
