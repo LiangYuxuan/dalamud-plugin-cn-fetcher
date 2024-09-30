@@ -171,6 +171,11 @@ const repos: Repo[] = [
         ],
     },
     {
+        type: 'delay',
+        url: 'https://aetherment.sevii.dev/plugin',
+        key: 'sevii',
+    },
+    {
         type: 'github-cn',
         owner: 'akira0245',
         repo: 'DalamudPlugins',
