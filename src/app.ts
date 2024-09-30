@@ -121,9 +121,6 @@ const repos: Repo[] = [
             {
                 Name: 'Food Check',
             },
-            {
-                Name: 'Loot Master',
-            },
         ],
     },
     {
