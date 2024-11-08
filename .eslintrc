@@ -1,0 +1,3 @@
+// workaround: exists for import/no-unused-modules & import-x/no-unused-modules to work
+// see https://github.com/import-js/eslint-plugin-import/issues/3079
+// and https://github.com/un-ts/eslint-plugin-import-x/issues/90
