@@ -1,3 +1,58 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
+interface SimpleUser {
+    name?: string | null
+    email?: string | null
+    login: string
+    id: number
+    node_id: string
+    avatar_url: string
+    gravatar_id: string | null
+    url: string
+    html_url: string
+    followers_url: string
+    following_url: string
+    gists_url: string
+    starred_url: string
+    subscriptions_url: string
+    organizations_url: string
+    repos_url: string
+    events_url: string
+    received_events_url: string
+    type: string
+    site_admin: boolean
+    starred_at?: string
+}
+
+interface ReleaseAsset {
+    url: string
+    browser_download_url: string
+    id: number
+    node_id: string
+    name: string
+    label: string | null
+    state: 'uploaded' | 'open'
+    content_type: string
+    size: number
+    download_count: number
+    created_at: string
+    updated_at: string
+    uploader: null | SimpleUser
+}
+
+interface ReactionRollup {
+    url: string
+    total_count: number
+    '+1': number
+    '-1': number
+    laugh: number
+    confused: number
+    heart: number
+    hooray: number
+    eyes: number
+    rocket: number
+}
+
 export interface Release {
     url: string
     html_url: string
@@ -22,57 +77,4 @@ export interface Release {
     mentions_count?: number
     discussion_url?: string
     reactions?: ReactionRollup
-}
-
-export interface SimpleUser {
-    name?: string | null
-    email?: string | null
-    login: string
-    id: number
-    node_id: string
-    avatar_url: string
-    gravatar_id: string | null
-    url: string
-    html_url: string
-    followers_url: string
-    following_url: string
-    gists_url: string
-    starred_url: string
-    subscriptions_url: string
-    organizations_url: string
-    repos_url: string
-    events_url: string
-    received_events_url: string
-    type: string
-    site_admin: boolean
-    starred_at?: string
-}
-
-export interface ReleaseAsset {
-    url: string
-    browser_download_url: string
-    id: number
-    node_id: string
-    name: string
-    label: string | null
-    state: 'uploaded' | 'open'
-    content_type: string
-    size: number
-    download_count: number
-    created_at: string
-    updated_at: string
-    uploader: null | SimpleUser
-}
-
-export interface ReactionRollup {
-    url: string
-    total_count: number
-    '+1': number
-    '-1': number
-    laugh: number
-    confused: number
-    heart: number
-    hooray: number
-    eyes: number
-    rocket: number
 }

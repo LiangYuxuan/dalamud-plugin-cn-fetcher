@@ -1,17 +1,15 @@
-import got from 'got';
-
 import { getCommitDateBefore } from './url.ts';
 
 import type { Manifest } from './types/manifest.ts';
 
-const ManifestMatchKey = [
+const manifestMatchKey = [
     'Name',
     'InternalName',
     'Author',
 ] as const satisfies readonly (keyof Manifest)[];
 
 type ManifestMatch = {
-    [K in typeof ManifestMatchKey[number]]?: Manifest[K];
+    [K in typeof manifestMatchKey[number]]?: Manifest[K];
 };
 
 interface ModifiedRules {
@@ -47,12 +45,20 @@ interface DelayGlobalRepo extends ModifiedRules {
     key: string,
 }
 
+const matchManifest = (
+    manifest: Manifest,
+    match: ManifestMatch,
+): boolean => manifestMatchKey
+    .every((key) => typeof match[key] === 'undefined' || manifest[key] === match[key]);
+
 export type Repo = GitHubGlobalRepo | GitHubCNRepo | DirectRepo | DelayGlobalRepo;
 
 export const getRepoString = (repo: Repo): string => {
     switch (repo.type) {
         case 'direct':
             return `direct:${repo.url}`;
+        case 'delay':
+            return `delay:${repo.url}`;
         case 'github-global':
         case 'github-cn':
             return `${repo.type}:${repo.owner}/${repo.repo}`;
@@ -61,12 +67,6 @@ export const getRepoString = (repo: Repo): string => {
             throw new Error('Unknown repo type');
     }
 };
-
-const matchManifest = (
-    manifest: Manifest,
-    match: ManifestMatch,
-): boolean => ManifestMatchKey
-    .every((key) => !match[key] || manifest[key] === match[key]);
 
 export const processManifest = (
     repo: Repo,
@@ -115,22 +115,25 @@ export const fetchManifest = async (
             const {
                 owner, repo, branch, path,
             } = value;
-            if (beforeDate) {
+            if (typeof beforeDate === 'string') {
                 const sha = await getCommitDateBefore(owner, repo, branch, beforeDate);
-                return got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${path}`).json<Manifest[]>();
+                return (await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${path}`)).json() as Promise<Manifest[]>;
             }
-            return got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`).json<Manifest[]>();
+            return (await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`)).json() as Promise<Manifest[]>;
         }
         case 'github-cn': {
             const {
                 owner, repo, branch, path,
             } = value;
-            return got.get(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`).json<Manifest[]>();
+            return (await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`)).json() as Promise<Manifest[]>;
         }
         case 'direct':
         case 'delay': {
+            const headers = new Headers();
+            headers.append('Accept', 'application/json');
+
             const { url } = value;
-            return got.get(url).json<Manifest[]>();
+            return (await fetch(url, { headers })).json() as Promise<Manifest[]>;
         }
         default:
             value satisfies never;

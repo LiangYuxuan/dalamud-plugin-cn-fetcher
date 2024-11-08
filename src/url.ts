@@ -1,6 +1,6 @@
-import assert from 'node:assert';
+/* eslint-disable @typescript-eslint/naming-convention */
 
-import got from 'got';
+import assert from 'node:assert';
 
 import type { Commit } from './types/commits.ts';
 import type { Manifest } from './types/manifest.ts';
@@ -12,7 +12,7 @@ const ghReleaseRegex = /https:\/\/(?:www\.)?github\.com\/([^/]+)\/([^/]+)\/relea
 const ghReleaseLatestRegex = /https:\/\/(?:www\.)?github\.com\/([^/]+)\/([^/]+)\/releases\/latest\/download\/(.*)/;
 
 const commitCache = new Map<string, string>();
-export const getCommitDateBefore = async (
+const getCommitDateBefore = async (
     owner: string,
     repo: string,
     branch: string,
@@ -20,15 +20,15 @@ export const getCommitDateBefore = async (
 ) => {
     const key = `${owner}/${repo}/${branch}/${beforeDate}`;
     const cache = commitCache.get(key);
-    if (cache) {
+    if (typeof cache === 'string') {
         return cache;
     }
 
-    const commits: Commit[] = await got.get(`https://api.github.com/repos/${owner}/${repo}/commits?sha=${branch}&until=${beforeDate}&per_page=1`, {
-        headers: {
-            Authorization: process.env.GITHUB_TOKEN,
-        },
-    }).json();
+    const headers = new Headers();
+    headers.set('Authorization', process.env.GITHUB_TOKEN ?? '');
+
+    const req = await fetch(`https://api.github.com/repos/${owner}/${repo}/commits?sha=${branch}&until=${beforeDate}&per_page=1`, { headers });
+    const commits = await req.json() as Commit[];
     const { sha } = commits[0];
 
     commitCache.set(key, sha);
@@ -36,22 +36,21 @@ export const getCommitDateBefore = async (
 };
 
 const releaseCache = new Map<string, string>();
-export const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: string) => {
+const getReleaseDateBefore = async (owner: string, repo: string, beforeDate: string) => {
     const key = `${owner}/${repo}/${beforeDate}`;
     const cache = releaseCache.get(key);
-    if (cache) {
+    if (typeof cache === 'string') {
         return cache;
     }
 
     const date = new Date(beforeDate);
+    const headers = new Headers();
+    headers.set('Authorization', process.env.GITHUB_TOKEN ?? '');
 
     let index = 0;
     let page = 1;
-    let releases: Release[] = await got.get(`https://api.github.com/repos/${owner}/${repo}/releases`, {
-        headers: {
-            Authorization: process.env.GITHUB_TOKEN,
-        },
-    }).json();
+    let releases = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases`, { headers })
+        .then((res) => res.json() as Promise<Release[]>);
     while (releases.length > 0) {
         const curr = new Date(releases[index].published_at ?? releases[index].created_at);
         if (curr < date) {
@@ -67,11 +66,8 @@ export const getReleaseDateBefore = async (owner: string, repo: string, beforeDa
             index = 0;
 
             // eslint-disable-next-line no-await-in-loop
-            releases = await got.get(`https://api.github.com/repos/${owner}/${repo}/releases?page=${page.toString()}`, {
-                headers: {
-                    Authorization: process.env.GITHUB_TOKEN,
-                },
-            }).json();
+            releases = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases?page=${page.toString()}`, { headers })
+                .then((res) => res.json() as Promise<Release[]>);
         }
     }
 
@@ -79,23 +75,39 @@ export const getReleaseDateBefore = async (owner: string, repo: string, beforeDa
 };
 
 const urlToProxy = (url: string) => {
-    const rawResult = url.match(rawRegex) ?? url.match(ghRawRegex);
+    const rawResult = rawRegex.exec(url) ?? ghRawRegex.exec(url);
     if (rawResult) {
-        const [, owner, repo, branch, tailing] = rawResult;
+        const [
+            ,
+            owner,
+            repo,
+            branch,
+            tailing,
+        ] = rawResult;
         // return `https://raw.fastgit.org/${owner}/${repo}/${branch}/${tailing}`;
         return `https://ghproxy.com/https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${tailing}`;
     }
 
-    const releaseResult = url.match(ghReleaseRegex);
+    const releaseResult = ghReleaseRegex.exec(url);
     if (releaseResult) {
-        const [, owner, repo, tailing] = releaseResult;
+        const [
+            ,
+            owner,
+            repo,
+            tailing,
+        ] = releaseResult;
         // return `https://download.fastgit.org/${owner}/${repo}/releases/download/${tailing}`;
         return `https://ghproxy.com/https://github.com/${owner}/${repo}/releases/download/${tailing}`;
     }
 
-    const releaseLatestResult = url.match(ghReleaseLatestRegex);
+    const releaseLatestResult = ghReleaseLatestRegex.exec(url);
     if (releaseLatestResult) {
-        const [, owner, repo, tailing] = releaseLatestResult;
+        const [
+            ,
+            owner,
+            repo,
+            tailing,
+        ] = releaseLatestResult;
         // return `https://download.fastgit.org/${owner}/${repo}/releases/latest/download/${tailing}`;
         return `https://ghproxy.com/https://github.com/${owner}/${repo}/releases/latest/download/${tailing}`;
     }
@@ -104,22 +116,33 @@ const urlToProxy = (url: string) => {
 };
 
 const urlToDateBefore = async (url: string, beforeDate: string) => {
-    const rawResult = url.match(rawRegex) ?? url.match(ghRawRegex);
+    const rawResult = rawRegex.exec(url) ?? ghRawRegex.exec(url);
     if (rawResult) {
-        const [, owner, repo, branch, tailing] = rawResult;
+        const [
+            ,
+            owner,
+            repo,
+            branch,
+            tailing,
+        ] = rawResult;
         const sha = await getCommitDateBefore(owner, repo, branch, beforeDate);
 
-        assert(sha, `Failing to fetch commit of ${owner}/${repo} before ${beforeDate}`);
+        assert(typeof sha === 'string', `Failing to fetch commit of ${owner}/${repo} before ${beforeDate}`);
 
         return `https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${tailing}`;
     }
 
-    const releaseLatestResult = url.match(ghReleaseLatestRegex);
+    const releaseLatestResult = ghReleaseLatestRegex.exec(url);
     if (releaseLatestResult) {
-        const [, owner, repo, tailing] = releaseLatestResult;
+        const [
+            ,
+            owner,
+            repo,
+            tailing,
+        ] = releaseLatestResult;
         const tag = await getReleaseDateBefore(owner, repo, beforeDate);
 
-        assert(tag, `Failing to fetch release of ${owner}/${repo} before ${beforeDate}`);
+        assert(typeof tag === 'string', `Failing to fetch release of ${owner}/${repo} before ${beforeDate}`);
 
         return `https://github.com/${owner}/${repo}/releases/download/${tag}/${tailing}`;
     }
@@ -133,23 +156,23 @@ export const updateManifestToProxy = (data: Manifest[]) => data.map((plugin) => 
         DownloadLinkTesting, IconUrl, ImageUrls,
     } = plugin;
 
-    if (DownloadLinkInstall) {
+    if (typeof DownloadLinkInstall === 'string') {
         DownloadLinkInstall = urlToProxy(DownloadLinkInstall);
     }
 
-    if (DownloadLinkUpdate) {
+    if (typeof DownloadLinkUpdate === 'string') {
         DownloadLinkUpdate = urlToProxy(DownloadLinkUpdate);
     }
 
-    if (DownloadLinkTesting) {
+    if (typeof DownloadLinkTesting === 'string') {
         DownloadLinkTesting = urlToProxy(DownloadLinkTesting);
     }
 
-    if (IconUrl) {
+    if (typeof IconUrl === 'string') {
         IconUrl = urlToProxy(IconUrl);
     }
 
-    if (ImageUrls) {
+    if (typeof ImageUrls === 'object') {
         ImageUrls = ImageUrls.map(urlToProxy);
     }
 
@@ -173,15 +196,15 @@ export const updateManifestToDateBefore = (
         DownloadLinkTesting,
     } = plugin;
 
-    if (DownloadLinkInstall) {
+    if (typeof DownloadLinkInstall === 'string') {
         DownloadLinkInstall = await urlToDateBefore(DownloadLinkInstall, beforeDate);
     }
 
-    if (DownloadLinkUpdate) {
+    if (typeof DownloadLinkUpdate === 'string') {
         DownloadLinkUpdate = await urlToDateBefore(DownloadLinkUpdate, beforeDate);
     }
 
-    if (DownloadLinkTesting) {
+    if (typeof DownloadLinkTesting === 'string') {
         DownloadLinkTesting = await urlToDateBefore(DownloadLinkTesting, beforeDate);
     }
 
@@ -192,3 +215,5 @@ export const updateManifestToDateBefore = (
         DownloadLinkTesting,
     };
 });
+
+export { getCommitDateBefore };

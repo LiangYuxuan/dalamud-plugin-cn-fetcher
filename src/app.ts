@@ -1,17 +1,19 @@
-/* eslint-disable no-console */
+/* eslint-disable import-x/no-unused-modules */
 
 import assert from 'node:assert';
 import fs from 'node:fs/promises';
 
 import {
-    fetchManifest, processManifest, getRepoString, Repo,
+    storeManifestFiles, getManifestFromStored,
+} from './delay.ts';
+import {
+    fetchManifest, processManifest, getRepoString,
 } from './repos.ts';
 import {
     updateManifestToDateBefore, updateManifestToProxy,
 } from './url.ts';
-import {
-    storeManifestFiles, getManifestFromStored,
-} from './delay.ts';
+
+import type { Repo } from './repos.ts';
 
 interface VersionInfo {
     version: string,
@@ -44,6 +46,7 @@ const versions: VersionInfo[] = [
     },
 ];
 
+/* eslint-disable @typescript-eslint/naming-convention */
 const repos: Repo[] = [
     {
         type: 'github-global',
@@ -245,6 +248,7 @@ const repos: Repo[] = [
         ],
     },
 ];
+/* eslint-enable @typescript-eslint/naming-convention */
 
 const today = new Date();
 const versionCNIndex = versions

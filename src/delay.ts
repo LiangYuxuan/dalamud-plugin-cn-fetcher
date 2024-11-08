@@ -1,7 +1,7 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
 import fs from 'node:fs/promises';
 import path from 'node:path';
-
-import got from 'got';
 
 import type { Manifest } from './types/manifest.ts';
 
@@ -14,24 +14,36 @@ const storePlugin = async (key: string, rootPath: string, plugin: Manifest): Pro
         DownloadLinkTesting,
     } = plugin;
 
-    if (DownloadLinkInstall) {
-        const buffer = await got(DownloadLinkInstall).buffer();
+    if (typeof DownloadLinkInstall === 'string') {
+        const buffer = Buffer.from(
+            new Uint8Array(
+                await (await fetch(DownloadLinkInstall)).arrayBuffer(),
+            ),
+        );
         const filePath = path.join(rootPath, `${InternalName}_Install.zip`);
         await fs.writeFile(filePath, buffer);
 
         DownloadLinkInstall = `https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/${key}/${InternalName}_Install.zip`;
     }
 
-    if (DownloadLinkUpdate) {
-        const buffer = await got(DownloadLinkUpdate).buffer();
+    if (typeof DownloadLinkUpdate === 'string') {
+        const buffer = Buffer.from(
+            new Uint8Array(
+                await (await fetch(DownloadLinkUpdate)).arrayBuffer(),
+            ),
+        );
         const filePath = path.join(rootPath, `${InternalName}_Update.zip`);
         await fs.writeFile(filePath, buffer);
 
         DownloadLinkUpdate = `https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/${key}/${InternalName}_Update.zip`;
     }
 
-    if (DownloadLinkTesting) {
-        const buffer = await got(DownloadLinkTesting).buffer();
+    if (typeof DownloadLinkTesting === 'string') {
+        const buffer = Buffer.from(
+            new Uint8Array(
+                await (await fetch(DownloadLinkTesting)).arrayBuffer(),
+            ),
+        );
         const filePath = path.join(rootPath, `${InternalName}_Testing.zip`);
         await fs.writeFile(filePath, buffer);
 
