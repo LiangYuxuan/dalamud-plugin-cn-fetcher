@@ -25,6 +25,10 @@ interface VersionInfo {
 // https://ff.web.sdo.com/web8/index.html#/newstab/newslist
 const versions: VersionInfo[] = [
     {
+        version: '7.1',
+        global: new Date('2024-11-12T08:00:00Z'),
+    },
+    {
         version: '7.0',
         global: new Date('2024-06-28T08:00:00Z'),
         cn: new Date('2024-09-27T08:00:00Z'),
