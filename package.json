@@ -1,10 +1,10 @@
 {
   "name": "dalamud-plugin-cn-fetcher",
-  "version": "1.0.0",
-  "author": "Rhyster",
-  "description": "Fetch dalamud plugin list and replace url for CN client and network.",
-  "license": "MIT",
   "type": "module",
+  "private": true,
+  "author": "Rhythm",
+  "license": "MIT",
+  "description": "Fetch dalamud plugin list and replace url for CN client and network.",
   "scripts": {
     "build": "tsc --project ./",
     "start": "tsx src/app.ts",
