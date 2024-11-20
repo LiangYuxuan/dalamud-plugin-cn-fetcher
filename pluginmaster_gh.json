@@ -998,7 +998,7 @@
         "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "InternalName": "XIVSlothComboX",
-        "AssemblyVersion": "3.2.0.53",
+        "AssemblyVersion": "3.2.0.54",
         "Changelog": "更新内容看更新日志",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
@@ -1064,7 +1064,7 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.2.2.0",
+        "AssemblyVersion": "1.2.3.0",
         "TestingAssemblyVersion": "1.1.9.8",
         "Author": "AtmoOmen",
         "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
