@@ -990,7 +990,7 @@
         "DownloadLinkTesting": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadLinkUpdate": "https://ghproxy.com/https://raw.githubusercontent.com/Nukoooo/DalamudPlugins/dev/plugins/FFLogsViewer/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1732883098"
+        "LastUpdate": "1733282728"
     },
     {
         "Author": "Team Sloth",
@@ -998,7 +998,7 @@
         "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
         "InternalName": "XIVSlothComboX",
-        "AssemblyVersion": "3.2.0.60",
+        "AssemblyVersion": "3.2.0.61",
         "Changelog": "更新内容看更新日志",
         "RepoUrl": "https://github.com/44451516/XIVSlothCombo/",
         "ApplicableVersion": "any",
@@ -1064,7 +1064,7 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.2.7.0",
+        "AssemblyVersion": "1.2.8.0",
         "TestingAssemblyVersion": "1.2.7.4",
         "Author": "AtmoOmen",
         "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
@@ -1079,7 +1079,6 @@
         "DalamudApiLevel": 10,
         "TestingDalamudApiLevel": 10,
         "AcceptsFeedback": true,
-        "LoadPriority": 10000,
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
         "IconUrl": "https://ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
         "DownloadLinkInstall": "https://ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
