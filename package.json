@@ -16,8 +16,8 @@
     "tsx": "^4.19.2"
   },
   "devDependencies": {
-    "@rhyster/eslint-config": "^1.6.1",
-    "@types/node": "^22.10.1",
+    "@rhyster/eslint-config": "^1.6.3",
+    "@types/node": "^22.10.2",
     "eslint": "^9.16.0",
     "typescript": "^5.7.2"
   },
