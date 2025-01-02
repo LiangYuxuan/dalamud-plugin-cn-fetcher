@@ -256,7 +256,7 @@ const repos: Repo[] = [
 
 const today = new Date();
 const versionCNIndex = versions
-    .findIndex((version) => version.cn && today >= version.cn);
+    .findIndex((version) => version.cn !== undefined && today >= version.cn);
 
 assert(versionCNIndex !== -1, 'Unknown CN version');
 
