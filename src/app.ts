@@ -21,12 +21,13 @@ interface VersionInfo {
     cn?: Date,
 }
 
-// https://ffxiv.fandom.com/wiki/Patch_notes
+// https://na.finalfantasyxiv.com/lodestone/special/patchnote_log/
 // https://ff.web.sdo.com/web8/index.html#/newstab/newslist
 const versions: VersionInfo[] = [
     {
         version: '7.1',
         global: new Date('2024-11-12T08:00:00Z'),
+        cn: new Date('2025-02-18T08:00:00Z'),
     },
     {
         version: '7.0',
