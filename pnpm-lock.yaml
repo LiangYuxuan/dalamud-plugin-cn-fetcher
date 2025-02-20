@@ -13,8 +13,8 @@ importers:
         version: 4.19.3
     devDependencies:
       '@rhyster/eslint-config':
-        specifier: ^1.7.5
-        version: 1.7.5(eslint@9.20.1)(typescript@5.7.3)
+        specifier: ^1.7.6
+        version: 1.7.6(eslint@9.20.1)(typescript@5.7.3)
       '@types/node':
         specifier: ^22.13.4
         version: 22.13.4
@@ -251,16 +251,16 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@rhyster/eslint-config@1.7.5':
-    resolution: {integrity: sha512-iX65JNCxr50JOsXU5qXXO9UxB94zSSeNVSpejOCKkFqdowDp2X0yYxdOCgGFgydvesYogXWOYJIDWHAUr0WFeg==}
+  '@rhyster/eslint-config@1.7.6':
+    resolution: {integrity: sha512-X6lKtg5COPio48A7b0aWbRd+K5+g+jhs9f0LWbzpjTIq7dFHvLiTRidkYEySd0WJeGx+twMKX1wffzV+94cn8w==}
     peerDependencies:
       eslint: '>= 9'
 
-  '@stylistic/eslint-plugin@3.1.0':
-    resolution: {integrity: sha512-pA6VOrOqk0+S8toJYhQGv2MWpQQR0QpeUo9AhNkC49Y26nxBQ/nH1rta9bUU1rPw2fJ1zZEMV5oCX5AazT7J2g==}
+  '@stylistic/eslint-plugin@4.0.1':
+    resolution: {integrity: sha512-RwKkRKiDrF4ptiur54ckDhOByQYKYZ1dEmI5K8BJCmuGpauFJXzVL1UQYTA2zq702CqMFdYiJcVFJWfokIgFxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: '>=8.40.0'
+      eslint: '>=9.0.0'
 
   '@types/doctrine@0.0.9':
     resolution: {integrity: sha512-eOIHzCUSH7SMfonMG1LsC2f8vxBFtho6NGBznK41R84YzPuvSBzrhEps33IsQiOW9+VL6NQ9DbjQJznk/S4uRA==}
@@ -1020,10 +1020,10 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@rhyster/eslint-config@1.7.5(eslint@9.20.1)(typescript@5.7.3)':
+  '@rhyster/eslint-config@1.7.6(eslint@9.20.1)(typescript@5.7.3)':
     dependencies:
       '@eslint/js': 9.20.0
-      '@stylistic/eslint-plugin': 3.1.0(eslint@9.20.1)(typescript@5.7.3)
+      '@stylistic/eslint-plugin': 4.0.1(eslint@9.20.1)(typescript@5.7.3)
       confusing-browser-globals: 1.0.11
       eslint: 9.20.1
       eslint-import-resolver-typescript: 3.8.2(eslint-plugin-import-x@4.6.1(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1)
@@ -1038,7 +1038,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@stylistic/eslint-plugin@3.1.0(eslint@9.20.1)(typescript@5.7.3)':
+  '@stylistic/eslint-plugin@4.0.1(eslint@9.20.1)(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/utils': 8.24.1(eslint@9.20.1)(typescript@5.7.3)
       eslint: 9.20.1
