@@ -71,7 +71,7 @@ const repos: Repo[] = [
     },
     {
         type: 'github-global',
-        owner: 'Tischel',
+        owner: 'lichie567',
         repo: 'LMeter',
         branch: 'main',
         path: 'repo.json',
@@ -186,18 +186,6 @@ const repos: Repo[] = [
     },
     {
         type: 'github-cn',
-        owner: 'akira0245',
-        repo: 'DalamudPlugins',
-        branch: 'master',
-        path: 'pluginmaster.json',
-        include: [
-            {
-                Name: 'EasyZoom',
-            },
-        ],
-    },
-    {
-        type: 'github-cn',
         owner: 'Nukoooo',
         repo: 'DalamudPlugins',
         branch: 'dev',
@@ -241,18 +229,6 @@ const repos: Repo[] = [
         include: [
             {
                 Name: 'Radar',
-            },
-        ],
-    },
-    {
-        type: 'github-cn',
-        owner: 'AtmoOmen',
-        repo: 'DalamudPlugins',
-        branch: 'main',
-        path: 'pluginmaster.json',
-        include: [
-            {
-                Name: 'Daily Routines',
             },
         ],
     },
