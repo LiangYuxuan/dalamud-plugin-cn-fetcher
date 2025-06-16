@@ -27,6 +27,7 @@ const versions: VersionInfo[] = [
     {
         version: '7.2',
         global: new Date('2025-03-25T08:00:00Z'),
+        cn: new Date('2025-06-24T08:00:00Z'),
     },
     {
         version: '7.1',
