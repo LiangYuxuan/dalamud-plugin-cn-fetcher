@@ -6,7 +6,7 @@
         "Author": "Sevii",
         "DalamudApiLevel": 12,
         "Description": "Auto updates mods and allows for more customization such as color and compositing onto other files",
-        "DownloadCount": 122685,
+        "DownloadCount": 122751,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/sevii/Aetherment_Install.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/sevii/Aetherment_Testing.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/sevii/Aetherment_Update.zip",
