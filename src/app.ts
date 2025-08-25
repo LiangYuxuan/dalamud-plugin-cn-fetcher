@@ -142,18 +142,6 @@ const repos: Repo[] = [
     },
     {
         type: 'github-global',
-        owner: 'Penumbra-Sync',
-        repo: 'repo',
-        branch: 'main',
-        path: 'plogonmaster.json',
-        include: [
-            {
-                Name: 'Mare Synchronos',
-            },
-        ],
-    },
-    {
-        type: 'github-global',
         owner: 'a08381',
         repo: 'Dalamud.SkipCutscene',
         branch: 'dist',
