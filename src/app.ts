@@ -166,11 +166,6 @@ const repos: Repo[] = [
     },
     {
         type: 'delay',
-        url: 'https://plugins.carvel.li/',
-        key: 'carvel',
-    },
-    {
-        type: 'delay',
         url: 'https://love.puni.sh/ment.json',
         key: 'punish',
     },
