@@ -253,7 +253,7 @@ const processed = await Promise.all(original
         repo,
         manifests: processManifest(repo, manifests),
     }))
-    .map(({ repo, manifests }) => {
+    .map(async ({ repo, manifests }) => {
         if (repo.type === 'github-global') {
             return Promise
                 .all(updateManifestToDateBefore(manifests, versionGlobalDate))
