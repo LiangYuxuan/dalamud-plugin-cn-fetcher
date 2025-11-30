@@ -13,10 +13,10 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "tsx": "^4.20.6"
+    "tsx": "^4.21.0"
   },
   "devDependencies": {
-    "@rhyster/eslint-config": "^1.8.18",
+    "@rhyster/eslint-config": "^1.8.19",
     "@types/node": "^24.10.1",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3"
