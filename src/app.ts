@@ -136,9 +136,6 @@ const repos: Repo[] = [
             {
                 Name: 'Auto Login',
             },
-            {
-                Name: 'Food Check',
-            },
         ],
     },
     {
