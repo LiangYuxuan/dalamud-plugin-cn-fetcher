@@ -7,7 +7,7 @@
         "Tags": [],
         "InternalName": "Orbwalker",
         "RepoUrl": "https://github.com/PunishXIV/Orbwalker",
-        "DownloadCount": 71788,
+        "DownloadCount": 71792,
         "LastUpdate": 1766353349,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Orbwalker_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Orbwalker_Update.zip",
@@ -18,29 +18,6 @@
         "IconUrl": "https://s3.puni.sh/media/plugin/12/icon-o94qaw6cyn.png"
     },
     {
-        "Author": "kawaii, NightmareXIV",
-        "Name": "Avarice",
-        "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-        "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
-        "Tags": [
-            "combat"
-        ],
-        "InternalName": "Avarice",
-        "RepoUrl": "https://github.com/PunishXIV/Avarice",
-        "DownloadCount": 277550,
-        "LastUpdate": 1766785215,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Avarice_Install.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Avarice_Update.zip",
-        "AssemblyVersion": "2.2.0.4",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": "14",
-        "Changelog": " - Fix overlay drawing height for housing zone striking dummies\n",
-        "TestingAssemblyVersion": "2.2.0.5",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Avarice_Testing.zip",
-        "TestingDalamudApiLevel": "14",
-        "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
-    },
-    {
         "Author": "Team Wrath",
         "Name": "Wrath Combo",
         "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
@@ -48,7 +25,7 @@
         "Tags": [],
         "InternalName": "WrathCombo",
         "RepoUrl": "https://github.com/PunishXIV/WrathCombo",
-        "DownloadCount": 745278,
+        "DownloadCount": 745516,
         "LastUpdate": 1772906072,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/WrathCombo_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/WrathCombo_Update.zip",
@@ -62,6 +39,29 @@
         "IconUrl": "https://s3.puni.sh/media/plugin/60/icon-2bwhkn3zf1f.png"
     },
     {
+        "Author": "kawaii, NightmareXIV",
+        "Name": "Avarice",
+        "Punchline": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+        "Description": "Positional feedback with pixel perfect rear/flank tracking, range indicators, and more.",
+        "Tags": [
+            "combat"
+        ],
+        "InternalName": "Avarice",
+        "RepoUrl": "https://github.com/PunishXIV/Avarice",
+        "DownloadCount": 277572,
+        "LastUpdate": 1766785215,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Avarice_Install.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Avarice_Update.zip",
+        "AssemblyVersion": "2.2.0.4",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": "14",
+        "Changelog": " - Fix overlay drawing height for housing zone striking dummies\n",
+        "TestingAssemblyVersion": "2.2.0.5",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Avarice_Testing.zip",
+        "TestingDalamudApiLevel": "14",
+        "IconUrl": "https://s3.puni.sh/media/plugin/11/icon-d95r9462spc.png"
+    },
+    {
         "Author": "daemitus, kawaii",
         "Name": "Yes Already",
         "Punchline": "Clicks Yes in various dialogs you've specified.",
@@ -69,7 +69,7 @@
         "Tags": [],
         "InternalName": "YesAlready",
         "RepoUrl": "https://github.com/PunishXIV/YesAlready",
-        "DownloadCount": 1125259,
+        "DownloadCount": 1125286,
         "LastUpdate": 1770367039,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/YesAlready_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/YesAlready_Update.zip",
@@ -94,7 +94,7 @@
         ],
         "InternalName": "Saucy",
         "RepoUrl": "https://github.com/PunishXIV/Saucy",
-        "DownloadCount": 504387,
+        "DownloadCount": 504398,
         "LastUpdate": 1767092642,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Saucy_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Saucy_Update.zip",
@@ -108,30 +108,6 @@
         "IconUrl": "https://s3.puni.sh/media/plugin/7/icon-bl3wub19h2u.png"
     },
     {
-        "Author": "NightmareXIV",
-        "Name": "Splatoon",
-        "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
-        "Description": "Splatoon is a scriptable telegraph and overlay engine for Final Fantasy XIV, built on the Dalamud plugin framework. It allows scripts to draw shapes, markers, labels, and indicators directly in the game world. These overlays can be attached to actors, positions, or events, and are rendered with precise positioning.\n\nSplatoon does not include presets or encounter logic by default. If you want presets, you must create them yourself or import them from others.\n\nIn short, Splatoon draws things. What it draws is up to you!",
-        "Tags": [
-            "Utility",
-            "Accessibility"
-        ],
-        "InternalName": "Splatoon",
-        "RepoUrl": "https://github.com/PunishXIV/Splatoon",
-        "DownloadCount": 1605154,
-        "LastUpdate": 1773172297,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Splatoon_Install.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Splatoon_Update.zip",
-        "AssemblyVersion": "3.9.0.24",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": "14",
-        "Changelog": "- Libraries update",
-        "TestingAssemblyVersion": "3.9.0.19",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Splatoon_Testing.zip",
-        "TestingDalamudApiLevel": "14",
-        "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
-    },
-    {
         "Author": "kawaii, NightmareXIV",
         "Name": "AutoRetainer",
         "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
@@ -139,7 +115,7 @@
         "Tags": [],
         "InternalName": "AutoRetainer",
         "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
-        "DownloadCount": 1888530,
+        "DownloadCount": 1888801,
         "LastUpdate": 1770953402,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/AutoRetainer_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/AutoRetainer_Update.zip",
@@ -153,6 +129,30 @@
         "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
     },
     {
+        "Author": "NightmareXIV",
+        "Name": "Splatoon",
+        "Punchline": "Scriptable overlay engine for drawing mechanics, markers, and indicators in real-time",
+        "Description": "Splatoon is a scriptable telegraph and overlay engine for Final Fantasy XIV, built on the Dalamud plugin framework. It allows scripts to draw shapes, markers, labels, and indicators directly in the game world. These overlays can be attached to actors, positions, or events, and are rendered with precise positioning.\n\nSplatoon does not include presets or encounter logic by default. If you want presets, you must create them yourself or import them from others.\n\nIn short, Splatoon draws things. What it draws is up to you!",
+        "Tags": [
+            "Utility",
+            "Accessibility"
+        ],
+        "InternalName": "Splatoon",
+        "RepoUrl": "https://github.com/PunishXIV/Splatoon",
+        "DownloadCount": 1607146,
+        "LastUpdate": 1773172297,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Splatoon_Install.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Splatoon_Update.zip",
+        "AssemblyVersion": "3.9.0.24",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": "14",
+        "Changelog": "- Libraries update",
+        "TestingAssemblyVersion": "3.9.0.19",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Splatoon_Testing.zip",
+        "TestingDalamudApiLevel": "14",
+        "IconUrl": "https://s3.puni.sh/media/plugin/10/icon-cchf5yumm2p.png"
+    },
+    {
         "Author": "Taurenkey, NightmareXIV, croizat",
         "Name": "Pandora's Box",
         "Punchline": "Do you dare to open Pandora's Box?",
@@ -163,7 +163,7 @@
         ],
         "InternalName": "PandorasBox",
         "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
-        "DownloadCount": 1104452,
+        "DownloadCount": 1104526,
         "LastUpdate": 1771872064,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PandorasBox_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PandorasBox_Update.zip",
@@ -175,50 +175,6 @@
         "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PandorasBox_Testing.zip",
         "TestingDalamudApiLevel": "9",
         "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
-    },
-    {
-        "Author": "kawaii, jukka",
-        "Name": "Palace Pal",
-        "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
-        "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
-        "Tags": [
-            "potd",
-            "hoh",
-            "splatoon",
-            "palace"
-        ],
-        "InternalName": "PalacePal",
-        "RepoUrl": "https://github.com/PunishXIV/PalacePal",
-        "DownloadCount": 198484,
-        "LastUpdate": 1766422628,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PalacePal_Install.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PalacePal_Update.zip",
-        "AssemblyVersion": "4.15.0.0",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": "14",
-        "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
-    },
-    {
-        "Author": "Det, Taurenkey",
-        "Name": "AutoHook",
-        "Punchline": "Makes fishing less (or more) boring",
-        "Description": "It hooks the fish for you, can you believe it?",
-        "Tags": [
-            "Gathering",
-            "Fishing"
-        ],
-        "InternalName": "AutoHook",
-        "RepoUrl": "https://github.com/PunishXIV/AutoHook",
-        "DownloadCount": 1321184,
-        "LastUpdate": 1770747933,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/AutoHook_Install.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/AutoHook_Update.zip",
-        "AssemblyVersion": "5.0.0.46",
-        "ApplicableVersion": "any",
-        "DalamudApiLevel": "14",
-        "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
     },
     {
         "Author": "Taurenkey, Gid, NightmareXIV",
@@ -233,7 +189,7 @@
         ],
         "InternalName": "LazyLoot",
         "RepoUrl": "https://github.com/PunishXIV/LazyLoot",
-        "DownloadCount": 207540,
+        "DownloadCount": 207620,
         "LastUpdate": 1769259115,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/LazyLoot_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/LazyLoot_Update.zip",
@@ -244,27 +200,48 @@
         "IconUrl": "https://s3.puni.sh/media/plugin/9/icon-zjun2qgmfbe.png"
     },
     {
-        "Author": "Taurenkey, kawaii, NightmareXIV",
-        "Name": "Artisan",
-        "Punchline": "A 'simple' crafting plugin.",
-        "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+        "Author": "Det, Taurenkey",
+        "Name": "AutoHook",
+        "Punchline": "Makes fishing less (or more) boring",
+        "Description": "It hooks the fish for you, can you believe it?",
         "Tags": [
-            "crafting"
+            "Gathering",
+            "Fishing"
         ],
-        "InternalName": "Artisan",
-        "RepoUrl": "https://github.com/PunishXIV/Artisan",
-        "DownloadCount": 4565237,
-        "LastUpdate": 1772896358,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Artisan_Install.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Artisan_Update.zip",
-        "AssemblyVersion": "4.0.4.50",
+        "InternalName": "AutoHook",
+        "RepoUrl": "https://github.com/PunishXIV/AutoHook",
+        "DownloadCount": 1321228,
+        "LastUpdate": 1770747933,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/AutoHook_Install.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/AutoHook_Update.zip",
+        "AssemblyVersion": "5.0.0.46",
         "ApplicableVersion": "any",
         "DalamudApiLevel": "14",
-        "Changelog": "- Fix potential recursion issue when expert solver is not available.",
-        "TestingAssemblyVersion": "4.0.4.48",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Artisan_Testing.zip",
-        "TestingDalamudApiLevel": "14",
-        "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+        "Changelog": "",
+        "IconUrl": "https://s3.puni.sh/media/plugin/47/icon-k1slevjorpo.png"
+    },
+    {
+        "Author": "kawaii, jukka",
+        "Name": "Palace Pal",
+        "Punchline": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.",
+        "Description": "Shows possible trap & Accursed Hoard locations in Palace of The Dead, Heaven on High, and Eureka Orthos.\n\nThis plugin requires Splatoon in order to render various draws on the screen.",
+        "Tags": [
+            "potd",
+            "hoh",
+            "splatoon",
+            "palace"
+        ],
+        "InternalName": "PalacePal",
+        "RepoUrl": "https://github.com/PunishXIV/PalacePal",
+        "DownloadCount": 198491,
+        "LastUpdate": 1766422628,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PalacePal_Install.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/PalacePal_Update.zip",
+        "AssemblyVersion": "4.15.0.0",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": "14",
+        "Changelog": "",
+        "IconUrl": "https://s3.puni.sh/media/plugin/32/icon-vrl2a8dqi3h.png"
     },
     {
         "Author": "Liza Carvelli & various contributors",
@@ -279,7 +256,7 @@
         ],
         "InternalName": "Questionable",
         "RepoUrl": "https://github.com/PunishXIV/Questionable",
-        "DownloadCount": 597165,
+        "DownloadCount": 597852,
         "LastUpdate": 1773136309,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Questionable_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Questionable_Update.zip",
@@ -291,5 +268,28 @@
         "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Questionable_Testing.zip",
         "TestingDalamudApiLevel": "13",
         "IconUrl": "https://s3.puni.sh/media/plugin/94/icon-lbslnc2t1ls.png"
+    },
+    {
+        "Author": "Taurenkey, kawaii, NightmareXIV",
+        "Name": "Artisan",
+        "Punchline": "A 'simple' crafting plugin.",
+        "Description": "The all-in-one crafting plugin. Perfect for people with next to no knowledge about crafting rotations. No need for a library of different macros, the solvers will work dynamically to try and complete your crafts. Also provides convenient ways to craft lists of items or grind out a specific item repeatedly.",
+        "Tags": [
+            "crafting"
+        ],
+        "InternalName": "Artisan",
+        "RepoUrl": "https://github.com/PunishXIV/Artisan",
+        "DownloadCount": 4566203,
+        "LastUpdate": 1772896358,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Artisan_Install.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Artisan_Update.zip",
+        "AssemblyVersion": "4.0.4.50",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": "14",
+        "Changelog": "- Fix potential recursion issue when expert solver is not available.",
+        "TestingAssemblyVersion": "4.0.4.48",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/punish/Artisan_Testing.zip",
+        "TestingDalamudApiLevel": "14",
+        "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
     }
 ]
