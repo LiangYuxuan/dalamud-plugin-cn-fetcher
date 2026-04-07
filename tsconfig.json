@@ -4,6 +4,7 @@
         "module": "NodeNext",
         "rootDir": "./src",
         "outDir": "./dist",
+        "types": ["node"],
         "allowImportingTsExtensions": true,
         "allowSyntheticDefaultImports": true,
         "declaration": true,
