@@ -7,7 +7,7 @@
         "Tags": [],
         "InternalName": "vsatisfy",
         "RepoUrl": null,
-        "DownloadCount": 128949,
+        "DownloadCount": 129106,
         "LastUpdate": 1778772850,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vsatisfy_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vsatisfy_Update.zip",
@@ -15,7 +15,7 @@
         "ApplicableVersion": "any",
         "DalamudApiLevel": "15",
         "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/58/icon-hffi2ft0zlg.png"
+        "IconUrl": "https://puni.sh/api/plugins/icon/58"
     },
     {
         "Author": "veyn, croizat",
@@ -25,7 +25,7 @@
         "Tags": [],
         "InternalName": "visland",
         "RepoUrl": "https://github.com/awgil/ffxiv_visland",
-        "DownloadCount": 791015,
+        "DownloadCount": 791227,
         "LastUpdate": 1777499431,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/visland_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/visland_Update.zip",
@@ -33,7 +33,7 @@
         "ApplicableVersion": "any",
         "DalamudApiLevel": "15",
         "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
+        "IconUrl": "https://puni.sh/api/plugins/icon/28"
     },
     {
         "Author": "veyn",
@@ -43,7 +43,7 @@
         "Tags": [],
         "InternalName": "vfaux",
         "RepoUrl": "https://github.com/awgil/vfaux",
-        "DownloadCount": 91978,
+        "DownloadCount": 92078,
         "LastUpdate": 1777496806,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vfaux_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vfaux_Update.zip",
@@ -51,7 +51,7 @@
         "ApplicableVersion": "any",
         "DalamudApiLevel": "15",
         "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/29/icon-3vysu0z0eem.png"
+        "IconUrl": "https://puni.sh/api/plugins/icon/29"
     },
     {
         "Author": "veyn, croizat",
@@ -61,7 +61,7 @@
         "Tags": [],
         "InternalName": "vfallguy",
         "RepoUrl": null,
-        "DownloadCount": 53191,
+        "DownloadCount": 53240,
         "LastUpdate": 1777500971,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vfallguy_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vfallguy_Update.zip",
@@ -69,7 +69,7 @@
         "ApplicableVersion": "any",
         "DalamudApiLevel": "15",
         "Changelog": "",
-        "IconUrl": "https://s3.puni.sh/media/plugin/41/icon-ky2vlcaen2q.png"
+        "IconUrl": "https://puni.sh/api/plugins/icon/41"
     },
     {
         "Author": "veyn, xan_0",
@@ -79,7 +79,7 @@
         "Tags": [],
         "InternalName": "vnavmesh",
         "RepoUrl": null,
-        "DownloadCount": 1429432,
+        "DownloadCount": 1430723,
         "LastUpdate": 1779040219,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vnavmesh_Install.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vnavmesh_Update.zip",
@@ -90,6 +90,6 @@
         "TestingAssemblyVersion": "0.5.6.28",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/LiangYuxuan/dalamud-plugin-cn-fetcher/master/store/veyn/vnavmesh_Testing.zip",
         "TestingDalamudApiLevel": "13",
-        "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-fcvvof2vj4n.png"
+        "IconUrl": "https://puni.sh/api/plugins/icon/48"
     }
 ]
