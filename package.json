@@ -13,7 +13,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "tsx": "^4.23.11"
+    "tsx": "^4.23.12"
   },
   "devDependencies": {
     "@rhyster/eslint-config": "^2.0.25",

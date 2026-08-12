@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       tsx:
-        specifier: ^4.23.11
-        version: 4.23.11
+        specifier: ^4.23.12
+        version: 4.23.12
     devDependencies:
       '@rhyster/eslint-config':
         specifier: ^2.0.25
@@ -831,8 +831,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tsx@4.23.11:
-    resolution: {integrity: sha512-Ry2oTEUnhBdeEdWIztY8kf3/nBGnPnjMLVGL0YfdRXMORuPER5NlKmayqxtxRxwB1xBN+RivRaJfe7PM1rtiyw==}
+  tsx@4.23.12:
+    resolution: {integrity: sha512-FDf4L4sYzKtzWYhU/Xm0AQFdTjdIxNo9ElTf2mxXM6k8YMHXzYUe4yODVaXP4V9uMFbVg8c0qyBccK2OOxb45Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -1616,7 +1616,7 @@ snapshots:
   tslib@2.8.1:
     optional: true
 
-  tsx@4.23.11:
+  tsx@4.23.12:
     dependencies:
       esbuild: 0.28.0
     optionalDependencies:
