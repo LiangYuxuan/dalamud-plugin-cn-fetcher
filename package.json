@@ -19,7 +19,7 @@
     "@rhyster/eslint-config": "^2.0.33",
     "@types/node": "^24.19.0",
     "eslint": "^10.11.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "packageManager": "pnpm@12.8.1"
 }
