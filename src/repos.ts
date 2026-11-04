@@ -108,7 +108,7 @@ export const processManifest = (
 
 export const fetchManifest = async (
     value: Repo,
-    beforeDate: string | undefined,
+    beforeDate?: string,
 ): Promise<Manifest[]> => {
     switch (value.type) {
         case 'github-global': {

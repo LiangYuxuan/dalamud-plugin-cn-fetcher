@@ -1,65 +1,18 @@
 /* eslint-disable import-x/no-unused-modules */
 
-import assert from 'node:assert';
 import fs from 'node:fs/promises';
 
 import {
-    storeManifestFiles, getManifestFromStored,
+    storeManifestFiles,
 } from './delay.ts';
 import {
     fetchManifest, processManifest, getRepoString,
 } from './repos.ts';
 import {
-    updateManifestToDateBefore, updateManifestToProxy,
+    updateManifestToProxy,
 } from './url.ts';
 
 import type { Repo } from './repos.ts';
-
-interface VersionInfo {
-    version: string,
-    global: Date,
-    cn?: Date,
-}
-
-// https://na.finalfantasyxiv.com/lodestone/special/patchnote_log/
-// https://ff.web.sdo.com/web8/index.html#/newstab/newslist
-const versions: VersionInfo[] = [
-    {
-        version: '7.3',
-        global: new Date('2025-08-05T08:00:00Z'),
-        cn: new Date('2025-09-16T08:00:00Z'),
-    },
-    {
-        version: '7.2',
-        global: new Date('2025-03-25T08:00:00Z'),
-        cn: new Date('2025-06-24T08:00:00Z'),
-    },
-    {
-        version: '7.1',
-        global: new Date('2024-11-12T08:00:00Z'),
-        cn: new Date('2025-02-18T08:00:00Z'),
-    },
-    {
-        version: '7.0',
-        global: new Date('2024-06-28T08:00:00Z'),
-        cn: new Date('2024-09-27T08:00:00Z'),
-    },
-    {
-        version: '6.5',
-        global: new Date('2023-10-03T08:00:00Z'),
-        cn: new Date('2024-03-05T08:00:00Z'),
-    },
-    {
-        version: '6.4',
-        global: new Date('2023-05-23T08:00:00Z'),
-        cn: new Date('2023-09-19T08:00:00Z'),
-    },
-    {
-        version: '6.3',
-        global: new Date('2023-01-10T08:00:00Z'),
-        cn: new Date('2023-05-09T08:00:00Z'),
-    },
-];
 
 /* eslint-disable @typescript-eslint/naming-convention */
 const repos: Repo[] = [
@@ -221,22 +174,11 @@ const repos: Repo[] = [
 ];
 /* eslint-enable @typescript-eslint/naming-convention */
 
-const today = new Date();
-const versionCNIndex = versions
-    .findIndex((version) => version.cn !== undefined && today >= version.cn);
-
-assert(versionCNIndex !== -1, 'Unknown CN version');
-
-const versionGlobalDate = versionCNIndex > 0
-    && today >= versions[versionCNIndex - 1].global
-    ? versions[versionCNIndex - 1].global.toISOString()
-    : today.toISOString();
-
 const original = await Promise.all(
     repos.map(async (repo) => ({
         repo,
         manifests: await (
-            fetchManifest(repo, versionGlobalDate)
+            fetchManifest(repo)
                 .catch((error: unknown) => {
                     console.error(`Failed to fetch ${getRepoString(repo)}`);
                     throw error;
@@ -251,22 +193,8 @@ const processed = await Promise.all(original
         manifests: processManifest(repo, manifests),
     }))
     .map(async ({ repo, manifests }) => {
-        if (repo.type === 'github-global') {
-            return Promise
-                .all(updateManifestToDateBefore(manifests, versionGlobalDate))
-                .catch((error: unknown) => {
-                    console.error(`Failed to get old versions for ${getRepoString(repo)}`);
-                    throw error;
-                });
-        }
         if (repo.type === 'delay') {
-            if (versionCNIndex === 0) {
-                // global === cn, update stored files
-                return storeManifestFiles(repo.key, manifests);
-            }
-
-            // global > cn, use stored files
-            return getManifestFromStored(repo.key);
+            return storeManifestFiles(repo.key, manifests);
         }
         return manifests;
     }));
