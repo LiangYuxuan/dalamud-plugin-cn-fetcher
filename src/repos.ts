@@ -1,5 +1,3 @@
-import { getCommitDateBefore } from './url.ts';
-
 import type { Manifest } from './types/manifest.ts';
 
 const manifestMatchKey = [
@@ -108,17 +106,12 @@ export const processManifest = (
 
 export const fetchManifest = async (
     value: Repo,
-    beforeDate?: string,
 ): Promise<Manifest[]> => {
     switch (value.type) {
         case 'github-global': {
             const {
                 owner, repo, branch, path,
             } = value;
-            if (typeof beforeDate === 'string') {
-                const sha = await getCommitDateBefore(owner, repo, branch, beforeDate);
-                return (await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/${path}`)).json() as Promise<Manifest[]>;
-            }
             return (await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`)).json() as Promise<Manifest[]>;
         }
         case 'github-cn': {
